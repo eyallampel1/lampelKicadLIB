@@ -383,7 +383,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "0603ESDA-05N"
+	(symbol "0603ESDA-05N (usb , esd , 0603)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -395,7 +395,7 @@
 				)
 			)
 		)
-		(property "Value" "0603ESDA-05N"
+		(property "Value" "0603ESDA-05N (usb , esd , 0603)"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -439,7 +439,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0603ESDA-05N_0_1"
+		(symbol "0603ESDA-05N (usb , esd , 0603)_0_1"
 			(polyline
 				(pts
 					(xy -2.54 1.27) (xy 0 0) (xy -2.54 -1.27) (xy -2.54 1.27)
@@ -2243,7 +2243,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "A3908EEETR-T"
+	(symbol "A3908EEETR-T (DC Motor Driver)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2255,7 +2255,7 @@
 				)
 			)
 		)
-		(property "Value" "A3908EEETR-T"
+		(property "Value" "A3908EEETR-T (DC Motor Driver)"
 			(at 0 -8.89 0)
 			(effects
 				(font
@@ -2299,7 +2299,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "A3908EEETR-T_0_1"
+		(symbol "A3908EEETR-T (DC Motor Driver)_0_1"
 			(rectangle
 				(start -8.89 6.35)
 				(end 8.89 -6.35)
@@ -2614,24 +2614,26 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "CC0603KRX7R9BB104"
+	(symbol "CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
-			(at 0 5.08 0)
+			(at 0 2.794 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "CC0603KRX7R9BB104"
+		(property "Value" "CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)"
 			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "easyeda2kicad:C0603"
@@ -2670,7 +2672,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "CC0603KRX7R9BB104_0_1"
+		(symbol "CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)_0_1"
 			(polyline
 				(pts
 					(xy -0.51 0) (xy -2.54 0)
@@ -2722,7 +2724,7 @@
 			(pin unspecified line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "1"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2740,7 +2742,7 @@
 			(pin unspecified line
 				(at 5.08 0 180)
 				(length 2.54)
-				(name "2"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2756,9 +2758,55 @@
 				)
 			)
 		)
+		(symbol "CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)_1_1"
+			(text "X7R"
+				(at -2.286 0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "±10%"
+				(at -2.286 -0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "0603"
+				(at 0 0 900)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "50v"
+				(at 2.032 0.762 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "100nF"
+				(at 2.794 -1.016 0)
+				(effects
+					(font
+						(size 0.889 0.889)
+					)
+				)
+			)
+		)
 		(embedded_fonts no)
 	)
-	(symbol "CH340C"
+	(symbol "CH340C (ftdi , usb to uart)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2770,7 +2818,7 @@
 				)
 			)
 		)
-		(property "Value" "CH340C"
+		(property "Value" "CH340C (ftdi , usb to uart)"
 			(at 0 -13.97 0)
 			(effects
 				(font
@@ -2814,7 +2862,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "CH340C_0_1"
+		(symbol "CH340C (ftdi , usb to uart)_0_1"
 			(rectangle
 				(start -8.89 11.43)
 				(end 8.89 -11.43)
@@ -3128,24 +3176,26 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "CL05A105KA5NQNC"
+	(symbol "CL05A105KA5NQNC (1uf ,0402 ,25v,X5R)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
-			(at 0 5.08 0)
+			(at 0 3.048 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "CL05A105KA5NQNC"
+		(property "Value" "CL05A105KA5NQNC (1uf ,0402 ,25v,X5R)"
 			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "easyeda2kicad:C0402"
@@ -3184,7 +3234,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "CL05A105KA5NQNC_0_1"
+		(symbol "CL05A105KA5NQNC (1uf ,0402 ,25v,X5R)_0_1"
 			(polyline
 				(pts
 					(xy -0.51 0) (xy -2.54 0)
@@ -3236,7 +3286,7 @@
 			(pin unspecified line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "1"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3254,7 +3304,7 @@
 			(pin unspecified line
 				(at 5.08 0 180)
 				(length 2.54)
-				(name "2"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3270,26 +3320,74 @@
 				)
 			)
 		)
+		(symbol "CL05A105KA5NQNC (1uf ,0402 ,25v,X5R)_1_1"
+			(text "X5R"
+				(at -2.286 0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "±10%"
+				(at -2.286 -0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "0402"
+				(at 0 0 900)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "25v"
+				(at 2.032 0.762 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "1uF"
+				(at 2.794 -1.016 0)
+				(effects
+					(font
+						(size 0.889 0.889)
+					)
+				)
+			)
+		)
 		(embedded_fonts no)
 	)
-	(symbol "CL05B104KO5NNNC"
+	(symbol "CL05B104KO5NNNC (100nf , 0402, 16v,X7R)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
-			(at 0 5.08 0)
+			(at 0 3.048 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "CL05B104KO5NNNC"
+		(property "Value" "CL05B104KO5NNNC (100nf , 0402, 16v,X7R)"
 			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "easyeda2kicad:C0402"
@@ -3328,7 +3426,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "CL05B104KO5NNNC_0_1"
+		(symbol "CL05B104KO5NNNC (100nf , 0402, 16v,X7R)_0_1"
 			(polyline
 				(pts
 					(xy -0.51 0) (xy -2.54 0)
@@ -3380,7 +3478,7 @@
 			(pin unspecified line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "1"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3398,7 +3496,7 @@
 			(pin unspecified line
 				(at 5.08 0 180)
 				(length 2.54)
-				(name "2"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3414,26 +3512,74 @@
 				)
 			)
 		)
+		(symbol "CL05B104KO5NNNC (100nf , 0402, 16v,X7R)_1_1"
+			(text "X7R"
+				(at -2.286 0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "±10%"
+				(at -2.286 -0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "0402"
+				(at 0 0 900)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "16v"
+				(at 2.032 0.762 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "100nF"
+				(at 2.794 -1.016 0)
+				(effects
+					(font
+						(size 0.889 0.889)
+					)
+				)
+			)
+		)
 		(embedded_fonts no)
 	)
-	(symbol "CL10A106KP8NNNC"
+	(symbol "CL10A106KP8NNNC (10uf , 0603 ,10v,X5R)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
-			(at 0 5.08 0)
+			(at 0 3.048 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "CL10A106KP8NNNC"
+		(property "Value" "CL10A106KP8NNNC (10uf , 0603 ,10v,X5R)"
 			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "easyeda2kicad:C0603"
@@ -3472,7 +3618,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "CL10A106KP8NNNC_0_1"
+		(symbol "CL10A106KP8NNNC (10uf , 0603 ,10v,X5R)_0_1"
 			(polyline
 				(pts
 					(xy -0.51 0) (xy -2.54 0)
@@ -3524,7 +3670,7 @@
 			(pin unspecified line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "1"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3542,7 +3688,7 @@
 			(pin unspecified line
 				(at 5.08 0 180)
 				(length 2.54)
-				(name "2"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3558,26 +3704,74 @@
 				)
 			)
 		)
+		(symbol "CL10A106KP8NNNC (10uf , 0603 ,10v,X5R)_1_1"
+			(text "X5R"
+				(at -2.286 0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "±10%"
+				(at -2.286 -0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "0603"
+				(at 0 0 900)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "10v"
+				(at 2.032 0.762 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "10uF"
+				(at 2.794 -1.016 0)
+				(effects
+					(font
+						(size 0.889 0.889)
+					)
+				)
+			)
+		)
 		(embedded_fonts no)
 	)
-	(symbol "CL10A225KO8NNNC"
+	(symbol "CL10A225KO8NNNC (2.2uf , 0603,16v,X5R)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
-			(at 0 5.08 0)
+			(at 0 3.048 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "CL10A225KO8NNNC"
+		(property "Value" "CL10A225KO8NNNC (2.2uf , 0603,16v,X5R)"
 			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "easyeda2kicad:C0603"
@@ -3616,10 +3810,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "CL10A225KO8NNNC_0_1"
+		(symbol "CL10A225KO8NNNC (2.2uf , 0603,16v,X5R)_0_1"
 			(polyline
 				(pts
-					(xy -1.27 0) (xy -0.51 0)
+					(xy -0.51 0) (xy -2.54 0)
 				)
 				(stroke
 					(width 0)
@@ -3631,7 +3825,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.51 2.03) (xy -0.51 -2.03)
+					(xy -0.51 -2.03) (xy -0.51 2.03)
 				)
 				(stroke
 					(width 0)
@@ -3655,7 +3849,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.51 0) (xy 1.27 0)
+					(xy 2.54 0) (xy 0.51 0)
 				)
 				(stroke
 					(width 0)
@@ -3665,10 +3859,10 @@
 					(type none)
 				)
 			)
-			(pin input line
-				(at -3.81 0 0)
+			(pin unspecified line
+				(at -5.08 0 0)
 				(length 2.54)
-				(name "1"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3683,10 +3877,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 3.81 0 180)
+			(pin unspecified line
+				(at 5.08 0 180)
 				(length 2.54)
-				(name "2"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3702,26 +3896,74 @@
 				)
 			)
 		)
+		(symbol "CL10A225KO8NNNC (2.2uf , 0603,16v,X5R)_1_1"
+			(text "X5R"
+				(at -2.286 0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "±10%"
+				(at -2.286 -0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "0603"
+				(at 0 0 900)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "16v"
+				(at 2.032 0.762 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "2.2uF"
+				(at 2.794 -1.016 0)
+				(effects
+					(font
+						(size 0.889 0.889)
+					)
+				)
+			)
+		)
 		(embedded_fonts no)
 	)
-	(symbol "CL10A226MP8NUNE"
+	(symbol "CL10A226MP8NUNE (22uf ,0603 ,10v ,X5R)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
-			(at 0 5.08 0)
+			(at 0 2.794 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "CL10A226MP8NUNE"
+		(property "Value" "CL10A226MP8NUNE (22uf ,0603 ,10v ,X5R)"
 			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "easyeda2kicad:C0603"
@@ -3760,7 +4002,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "CL10A226MP8NUNE_0_1"
+		(symbol "CL10A226MP8NUNE (22uf ,0603 ,10v ,X5R)_0_1"
 			(polyline
 				(pts
 					(xy -0.51 0) (xy -2.54 0)
@@ -3812,7 +4054,7 @@
 			(pin unspecified line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "1"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3830,7 +4072,7 @@
 			(pin unspecified line
 				(at 5.08 0 180)
 				(length 2.54)
-				(name "2"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3846,26 +4088,74 @@
 				)
 			)
 		)
+		(symbol "CL10A226MP8NUNE (22uf ,0603 ,10v ,X5R)_1_1"
+			(text "X5R"
+				(at -2.286 0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "±20%"
+				(at -2.286 -0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "0603"
+				(at 0 0 900)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "10v"
+				(at 2.032 0.762 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "22uF"
+				(at 2.794 -1.016 0)
+				(effects
+					(font
+						(size 0.889 0.889)
+					)
+				)
+			)
+		)
 		(embedded_fonts no)
 	)
-	(symbol "CL10A475KO8NNNC"
+	(symbol "CL10A475KO8NNNC (4.7uf , 0603 ,16v ,X5R)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
-			(at 0 5.08 0)
+			(at 0 3.048 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "CL10A475KO8NNNC"
+		(property "Value" "CL10A475KO8NNNC (4.7uf , 0603 ,16v ,X5R)"
 			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "easyeda2kicad:C0603"
@@ -3904,7 +4194,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "CL10A475KO8NNNC_0_1"
+		(symbol "CL10A475KO8NNNC (4.7uf , 0603 ,16v ,X5R)_0_1"
 			(polyline
 				(pts
 					(xy -0.51 0) (xy -2.54 0)
@@ -3956,7 +4246,7 @@
 			(pin unspecified line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "1"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3974,7 +4264,7 @@
 			(pin unspecified line
 				(at 5.08 0 180)
 				(length 2.54)
-				(name "2"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3990,26 +4280,74 @@
 				)
 			)
 		)
+		(symbol "CL10A475KO8NNNC (4.7uf , 0603 ,16v ,X5R)_1_1"
+			(text "X5R"
+				(at -2.286 0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "±10%"
+				(at -2.286 -0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "0603"
+				(at 0 0 900)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "16v"
+				(at 2.032 0.762 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "4.7uF"
+				(at 2.794 -1.016 0)
+				(effects
+					(font
+						(size 0.889 0.889)
+					)
+				)
+			)
+		)
 		(embedded_fonts no)
 	)
-	(symbol "CL10B105KA8NNNC"
+	(symbol "CL10B105KA8NNNC (1uf ,0603 ,25v ,X7R)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
-			(at 0 5.08 0)
+			(at 0 3.048 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "CL10B105KA8NNNC"
+		(property "Value" "CL10B105KA8NNNC (1uf ,0603 ,25v ,X7R)"
 			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "easyeda2kicad:C0603"
@@ -4048,10 +4386,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "CL10B105KA8NNNC_0_1"
+		(symbol "CL10B105KA8NNNC (1uf ,0603 ,25v ,X7R)_0_1"
 			(polyline
 				(pts
-					(xy -1.27 0) (xy -0.51 0)
+					(xy -0.51 0) (xy -2.54 0)
 				)
 				(stroke
 					(width 0)
@@ -4063,7 +4401,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.51 2.03) (xy -0.51 -2.03)
+					(xy -0.51 -2.03) (xy -0.51 2.03)
 				)
 				(stroke
 					(width 0)
@@ -4087,7 +4425,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.51 0) (xy 1.27 0)
+					(xy 2.54 0) (xy 0.51 0)
 				)
 				(stroke
 					(width 0)
@@ -4097,10 +4435,10 @@
 					(type none)
 				)
 			)
-			(pin input line
-				(at -3.81 0 0)
+			(pin unspecified line
+				(at -5.08 0 0)
 				(length 2.54)
-				(name "1"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4115,10 +4453,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 3.81 0 180)
+			(pin unspecified line
+				(at 5.08 0 180)
 				(length 2.54)
-				(name "2"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4134,26 +4472,74 @@
 				)
 			)
 		)
+		(symbol "CL10B105KA8NNNC (1uf ,0603 ,25v ,X7R)_1_1"
+			(text "X7R"
+				(at -2.286 0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "±10%"
+				(at -2.286 -0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "0603"
+				(at 0 0 900)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "25v"
+				(at 2.032 0.762 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "1uF"
+				(at 2.794 -1.016 0)
+				(effects
+					(font
+						(size 0.889 0.889)
+					)
+				)
+			)
+		)
 		(embedded_fonts no)
 	)
-	(symbol "CL21A476MQYNNNE"
+	(symbol "CL21A476MQYNNNE (47uf ,0805,6.3v,X5R)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
-			(at 0 5.08 0)
+			(at 0 3.048 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "CL21A476MQYNNNE"
+		(property "Value" "CL21A476MQYNNNE (47uf ,0805,6.3v,X5R)"
 			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "easyeda2kicad:C0805"
@@ -4192,10 +4578,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "CL21A476MQYNNNE_0_1"
+		(symbol "CL21A476MQYNNNE (47uf ,0805,6.3v,X5R)_0_1"
 			(polyline
 				(pts
-					(xy -1.27 0) (xy -0.51 0)
+					(xy -0.51 0) (xy -2.54 0)
 				)
 				(stroke
 					(width 0)
@@ -4207,7 +4593,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.51 2.03) (xy -0.51 -2.03)
+					(xy -0.51 -2.03) (xy -0.51 2.03)
 				)
 				(stroke
 					(width 0)
@@ -4231,7 +4617,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.51 0) (xy 1.27 0)
+					(xy 2.54 0) (xy 0.51 0)
 				)
 				(stroke
 					(width 0)
@@ -4241,10 +4627,10 @@
 					(type none)
 				)
 			)
-			(pin input line
-				(at -3.81 0 0)
+			(pin unspecified line
+				(at -5.08 0 0)
 				(length 2.54)
-				(name "1"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4259,10 +4645,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 3.81 0 180)
+			(pin unspecified line
+				(at 5.08 0 180)
 				(length 2.54)
-				(name "2"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4274,6 +4660,52 @@
 						(font
 							(size 1.27 1.27)
 						)
+					)
+				)
+			)
+		)
+		(symbol "CL21A476MQYNNNE (47uf ,0805,6.3v,X5R)_1_1"
+			(text "X5R"
+				(at -2.286 0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "±20%"
+				(at -2.286 -0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "0805"
+				(at 0 0 900)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "6.3v"
+				(at 2.032 0.762 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "47uF"
+				(at 2.794 -1.016 0)
+				(effects
+					(font
+						(size 0.889 0.889)
 					)
 				)
 			)
@@ -6218,7 +6650,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "INA260AIPWR"
+	(symbol "INA260AIPWR (I2C Current sensor)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6230,7 +6662,7 @@
 				)
 			)
 		)
-		(property "Value" "INA260AIPWR"
+		(property "Value" "INA260AIPWR (I2C Current sensor)"
 			(at 0 -13.97 0)
 			(effects
 				(font
@@ -6274,7 +6706,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "INA260AIPWR_0_1"
+		(symbol "INA260AIPWR (I2C Current sensor)_0_1"
 			(rectangle
 				(start -8.89 11.43)
 				(end 8.89 -11.43)
@@ -6588,7 +7020,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "JS102011JCQN"
+	(symbol "JS102011JCQN (Slide Switch)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6600,7 +7032,7 @@
 				)
 			)
 		)
-		(property "Value" "JS102011JCQN"
+		(property "Value" "JS102011JCQN (Slide Switch)"
 			(at 0 -1.27 0)
 			(effects
 				(font
@@ -6644,7 +7076,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "JS102011JCQN_0_1"
+		(symbol "JS102011JCQN (Slide Switch)_0_1"
 			(rectangle
 				(start -3.05 -1.78)
 				(end 0.51 -2.54)
@@ -6797,7 +7229,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "JS102011SAQN"
+	(symbol "JS102011SAQN (Slide Switch)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6809,7 +7241,7 @@
 				)
 			)
 		)
-		(property "Value" "JS102011SAQN"
+		(property "Value" "JS102011SAQN (Slide Switch)"
 			(at 0 -8.89 0)
 			(effects
 				(font
@@ -6853,7 +7285,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "JS102011SAQN_0_1"
+		(symbol "JS102011SAQN (Slide Switch)_0_1"
 			(polyline
 				(pts
 					(xy -3.05 3.81) (xy 3.81 3.81) (xy 2.29 4.06)
@@ -7006,7 +7438,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "KT-0603R"
+	(symbol "KT-0603R (LED red 0603)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7018,12 +7450,13 @@
 				)
 			)
 		)
-		(property "Value" "KT-0603R"
+		(property "Value" "KT-0603R (LED red 0603)"
 			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "easyeda2kicad:LED0603-RD"
@@ -7062,7 +7495,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "KT-0603R_0_1"
+		(symbol "KT-0603R (LED red 0603)_0_1"
 			(polyline
 				(pts
 					(xy -3.81 3.3) (xy -2.79 2.79) (xy -3.3 2.29) (xy -3.81 3.3)
@@ -7138,7 +7571,7 @@
 			(pin unspecified line
 				(at -5.08 0 0)
 				(length 3.81)
-				(name "K"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7156,7 +7589,7 @@
 			(pin unspecified line
 				(at 5.08 0 180)
 				(length 3.81)
-				(name "A"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7172,9 +7605,43 @@
 				)
 			)
 		)
+		(symbol "KT-0603R (LED red 0603)_1_1"
+			(text "K"
+				(at -2.286 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "LED RED"
+				(at 0 -3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "0603"
+				(at 0.254 0 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(text "A"
+				(at 2.286 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
 		(embedded_fonts no)
 	)
-	(symbol "MAX3221ECPWR"
+	(symbol "MAX3221ECPWR (uart buffer)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7186,7 +7653,7 @@
 				)
 			)
 		)
-		(property "Value" "MAX3221ECPWR"
+		(property "Value" "MAX3221ECPWR (uart buffer)"
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -7230,7 +7697,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "MAX3221ECPWR_0_1"
+		(symbol "MAX3221ECPWR (uart buffer)_0_1"
 			(rectangle
 				(start -12.7 13.21)
 				(end 12.7 -10.67)
@@ -7555,7 +8022,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "MBRA210LT3G_C5337989"
+	(symbol "MBRA210LT3G_C5337989 (DIODE SCHOTTKY 10V 2A)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7567,7 +8034,7 @@
 				)
 			)
 		)
-		(property "Value" "MBRA210LT3G_C5337989"
+		(property "Value" "MBRA210LT3G_C5337989 (DIODE SCHOTTKY 10V 2A)"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -7611,7 +8078,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "MBRA210LT3G_C5337989_0_1"
+		(symbol "MBRA210LT3G_C5337989 (DIODE SCHOTTKY 10V 2A)_0_1"
 			(polyline
 				(pts
 					(xy -1.78 1.27) (xy -1.78 1.78) (xy -1.27 1.78) (xy -1.27 -1.78) (xy -0.76 -1.78) (xy -0.76 -1.27)
@@ -7979,7 +8446,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "MMBT3904-C20526"
+	(symbol "MMBT3904-C20526 (BJT Transistor)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7991,7 +8458,7 @@
 				)
 			)
 		)
-		(property "Value" "MMBT3904-C20526"
+		(property "Value" "MMBT3904-C20526 (BJT Transistor)"
 			(at 0 -10.16 0)
 			(effects
 				(font
@@ -8035,7 +8502,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "MMBT3904-C20526_0_1"
+		(symbol "MMBT3904-C20526 (BJT Transistor)_0_1"
 			(polyline
 				(pts
 					(xy 0 2.29) (xy 0 -2.29)
@@ -8141,7 +8608,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "MPU6500"
+	(symbol "MPU6500 (IMU)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8153,7 +8620,7 @@
 				)
 			)
 		)
-		(property "Value" "MPU6500"
+		(property "Value" "MPU6500 (IMU)"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -8197,7 +8664,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "MPU6500_0_1"
+		(symbol "MPU6500 (IMU)_0_1"
 			(rectangle
 				(start -15.24 17.78)
 				(end 15.24 -17.78)
@@ -9226,24 +9693,26 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "PTFR0603B91R0P9"
+	(symbol "PTFR0603B91R0P9 (91ohm ,0603)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R"
-			(at 0 5.08 0)
+			(at 0 2.286 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "PTFR0603B91R0P9"
+		(property "Value" "PTFR0603B91R0P9 (91ohm ,0603)"
 			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "easyeda2kicad:R0603"
@@ -9282,7 +9751,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "PTFR0603B91R0P9_0_1"
+		(symbol "PTFR0603B91R0P9 (91ohm ,0603)_0_1"
 			(rectangle
 				(start -2.54 1.02)
 				(end 2.54 -1.02)
@@ -9294,10 +9763,10 @@
 					(type background)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "1"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9312,10 +9781,10 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 5.08 0 180)
 				(length 2.54)
-				(name "2"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9331,9 +9800,27 @@
 				)
 			)
 		)
+		(symbol "PTFR0603B91R0P9 (91ohm ,0603)_1_1"
+			(text "0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "91Ω"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
 		(embedded_fonts no)
 	)
-	(symbol "PZ254V-11-03P_C2937625"
+	(symbol "PZ254V-11-03P_C2937625 (CONN HEADER 3POS 2.54mm SINGLE ROW TH)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9345,7 +9832,7 @@
 				)
 			)
 		)
-		(property "Value" "PZ254V-11-03P_C2937625"
+		(property "Value" "PZ254V-11-03P_C2937625 (CONN HEADER 3POS 2.54mm SINGLE ROW TH)"
 			(at 0 -7.62 0)
 			(effects
 				(font
@@ -9389,7 +9876,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "PZ254V-11-03P_C2937625_0_1"
+		(symbol "PZ254V-11-03P_C2937625 (CONN HEADER 3POS 2.54mm SINGLE ROW TH)_0_1"
 			(rectangle
 				(start -2.54 5.08)
 				(end 2.54 -5.08)
@@ -9469,24 +9956,26 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "RC0603FR-0712KL"
+	(symbol "RC0603FR-0712KL (12kohm ,0603)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R"
-			(at 0 5.08 0)
+			(at 0 2.286 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "RC0603FR-0712KL"
+		(property "Value" "RC0603FR-0712KL (12kohm ,0603)"
 			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "easyeda2kicad:R0603"
@@ -9525,7 +10014,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "RC0603FR-0712KL_0_1"
+		(symbol "RC0603FR-0712KL (12kohm ,0603)_0_1"
 			(rectangle
 				(start -2.54 1.02)
 				(end 2.54 -1.02)
@@ -9540,7 +10029,7 @@
 			(pin input line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "1"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9558,7 +10047,7 @@
 			(pin input line
 				(at 5.08 0 180)
 				(length 2.54)
-				(name "2"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9574,9 +10063,27 @@
 				)
 			)
 		)
+		(symbol "RC0603FR-0712KL (12kohm ,0603)_1_1"
+			(text "0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "12kΩ"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
 		(embedded_fonts no)
 	)
-	(symbol "SK6812MINI-E_C5149201"
+	(symbol "SK6812MINI-E_C5149201 (LED RGB)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9588,7 +10095,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E_C5149201"
+		(property "Value" "SK6812MINI-E_C5149201 (LED RGB)"
 			(at 0 -6.35 0)
 			(effects
 				(font
@@ -9632,7 +10139,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "SK6812MINI-E_C5149201_0_1"
+		(symbol "SK6812MINI-E_C5149201 (LED RGB)_0_1"
 			(rectangle
 				(start -7.62 3.81)
 				(end 7.62 -3.81)
@@ -9719,7 +10226,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "SM04B-SRSS-TB(LF)(SN)"
+	(symbol "SM04B-SRSS-TB(LF)(SN) (4pin connector)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9775,7 +10282,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "SM04B-SRSS-TB(LF)(SN)_0_1"
+		(symbol "SM04B-SRSS-TB(LF)(SN) (4pin connector)_0_1"
 			(rectangle
 				(start -11.43 1.27)
 				(end 11.43 -3.81)
@@ -11864,7 +12371,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "TFPUSH"
+	(symbol "TFPUSH (Micro SD card)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -11920,7 +12427,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "TFPUSH_0_1"
+		(symbol "TFPUSH (Micro SD card)_0_1"
 			(rectangle
 				(start -7.62 12.7)
 				(end 12.7 -12.7)
@@ -12180,7 +12687,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "TMP75AIDR"
+	(symbol "TMP75AIDR (I2C Temperature Sensor)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -12192,7 +12699,7 @@
 				)
 			)
 		)
-		(property "Value" "TMP75AIDR"
+		(property "Value" "TMP75AIDR (I2C Temperature Sensor)"
 			(at 0 -8.89 0)
 			(effects
 				(font
@@ -12236,7 +12743,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "TMP75AIDR_0_1"
+		(symbol "TMP75AIDR (I2C Temperature Sensor)_0_1"
 			(rectangle
 				(start -10.16 6.86)
 				(end 10.16 -6.86)
@@ -12643,7 +13150,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "TYPE-C16PIN2MD(073)"
+	(symbol "TYPE-C16PIN2MD(073) (USB TYPE C 16P)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -12699,7 +13206,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "TYPE-C16PIN2MD(073)_0_1"
+		(symbol "TYPE-C16PIN2MD(073) (USB TYPE C 16P)_0_1"
 			(rectangle
 				(start -8.89 16.51)
 				(end 7.62 -16.51)
@@ -13871,7 +14378,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "XC6206P332MR_C347376"
+	(symbol "XC6206P332MR_C347376 (3.3v out ldo 250mA)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -13883,7 +14390,7 @@
 				)
 			)
 		)
-		(property "Value" "XC6206P332MR_C347376"
+		(property "Value" "XC6206P332MR_C347376 (3.3v out ldo 250mA)"
 			(at 0 -6.35 0)
 			(effects
 				(font
@@ -13927,7 +14434,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "XC6206P332MR_C347376_0_1"
+		(symbol "XC6206P332MR_C347376 (3.3v out ldo 250mA)_0_1"
 			(rectangle
 				(start -7.62 3.81)
 				(end 7.62 -3.81)
