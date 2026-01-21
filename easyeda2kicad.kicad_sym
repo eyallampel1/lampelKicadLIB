@@ -18545,7 +18545,7 @@
 		(embedded_fonts no)
 	)
 
-  (symbol "CL32A107MQVNNNE"
+  (symbol "CL32A107MQVNNNE (100uF , 3V , ±20% , X5R)"
     (in_bom yes)
     (on_board yes)
     (property
@@ -18557,7 +18557,7 @@
     )
     (property
       "Value"
-      "CL32A107MQVNNNE"
+      "CL32A107MQVNNNE (100uF , 3V , ±20% , X5R)"
       (id 1)
       (at 0 -5.08 0)
       (effects (font (size 1.27 1.27) ) )
@@ -18583,7 +18583,7 @@
       (at 0 -12.70 0)
       (effects (font (size 1.27 1.27) ) hide)
     )
-    (symbol "CL32A107MQVNNNE_0_1"
+    (symbol "CL32A107MQVNNNE (100uF , 3V , ±20% , X5R)_0_1"
       (polyline
         (pts
           (xy -0.51 2.03) (xy -0.51 -2.03)
@@ -18624,6 +18624,34 @@
         (name "2" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-    )
+    
+			(text "3V"
+				(at 1.778 0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 255 28 28 1)
+					)
+				)
+			)
+			(text "X5R"
+				(at -1.778 0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "±20%"
+				(at -1.778 -0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+		)
   )
 )
