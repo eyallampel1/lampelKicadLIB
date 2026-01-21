@@ -16872,7 +16872,7 @@
       )
     )
   )
-  (symbol "CL10C220JB8NNNC"
+  (symbol "CL10C220JB8NNNC (22pF , 0603 , 50V , ±5% , C0G)"
     (in_bom yes)
     (on_board yes)
     (property
@@ -16884,7 +16884,7 @@
     )
     (property
       "Value"
-      "CL10C220JB8NNNC"
+      "CL10C220JB8NNNC (22pF , 0603 , 50V , ±5% , C0G)"
       (id 1)
       (at 0 -5.08 0)
       (effects (font (size 1.27 1.27) ) )
@@ -16910,7 +16910,7 @@
       (at 0 -12.70 0)
       (effects (font (size 1.27 1.27) ) hide)
     )
-    (symbol "CL10C220JB8NNNC_0_1"
+    (symbol "CL10C220JB8NNNC (22pF , 0603 , 50V , ±5% , C0G)_0_1"
       (polyline
         (pts
           (xy -0.51 2.03) (xy -0.51 -2.03)
@@ -16951,7 +16951,43 @@
         (name "2" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-    )
+    
+			(text "0603"
+				(at 0 0 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "50V"
+				(at 2.286 0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 255 28 28 1)
+					)
+				)
+			)
+			(text "C0G"
+				(at -2.286 0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "±5%"
+				(at -2.286 -0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+		)
   )
   (symbol "FRC0603F4701TS"
     (in_bom yes)
