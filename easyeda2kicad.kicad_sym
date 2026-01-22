@@ -15,15 +15,13 @@
 				)
 			)
 		)
-		402WGF1002TCE (10kohm , 0402)"
-			(at 0 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(property "Value" "0402WGF1002TCE (10kohm , 0402)"
+			(id 1) (at 0 -5.08 0)
+			(effects (font (size 1.27 1.27)))
 		)
+
+
+
 		(property "Footprint" "easyeda2kicad:R0402"
 			(at 0 -7.62 0)
 			(effects
@@ -142,15 +140,6 @@
 				)
 			)
 		)
-		402WGF1003TCE (100kohm , 0402)"
-			(at 0 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Footprint" "easyeda2kicad:R0402"
 			(at 0 -7.62 0)
 			(effects
@@ -188,6 +177,8 @@
 			)
 		)
 		(symbol "0402WGF1003TCE (100kohm , 0402)_0_1"
+
+
 			(rectangle
 				(start -2.54 1.02)
 				(end 2.54 -1.02)
@@ -237,6 +228,11 @@
 			)
 		)
 		(symbol "0402WGF1003TCE (100kohm , 0402)_1_1"
+
+	402WGF1003TCE (100kohm , 0402)"
+		(id 1) (at 0 -5.08 0)
+		(effects (font (size 1.27 1.27)))
+	)
 			(text "0402"
 				(at 0 0 0)
 				(effects
@@ -270,14 +266,10 @@
 			)
 		)
 		402WGF3300TCE (330ohm ,0402)"
-			(at 0 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(id 1) (at 0 -5.08 0)
+			(effects (font (size 1.27 1.27)))
 		)
+
 		(property "Footprint" "easyeda2kicad:R0402"
 			(at 0 -7.62 0)
 			(effects
@@ -396,13 +388,10 @@
 			)
 		)
 		603ESDA-05N (usb , esd , 0603)"
-			(at 0 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(id 1) (at 0 -5.08 0)
+			(effects (font (size 1.27 1.27)))
 		)
+
 		(property "Footprint" "easyeda2kicad:D0603-BI"
 			(at 0 -7.62 0)
 			(effects
@@ -529,14 +518,10 @@
 			)
 		)
 		603Green509-620mcd (led green 0603)"
-			(at 0 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(id 1) (at 0 -5.08 0)
+			(effects (font (size 1.27 1.27)))
 		)
+
 		(property "Footprint" "easyeda2kicad:LED0603-RD"
 			(at 0 -7.62 0)
 			(effects
@@ -733,14 +718,10 @@
 			)
 		)
 		603WAF0000T5E (0ohm , 0603)"
-			(at 0 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(id 1) (at 0 -5.08 0)
+			(effects (font (size 1.27 1.27)))
 		)
+
 		(property "Footprint" "easyeda2kicad:R0603"
 			(at 0 -7.62 0)
 			(effects
@@ -860,14 +841,10 @@
 			)
 		)
 		603WAF1000T5E (100ohm , 0603)"
-			(at 0 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(id 1) (at 0 -5.08 0)
+			(effects (font (size 1.27 1.27)))
 		)
+
 		(property "Footprint" "easyeda2kicad:R0603"
 			(at 0 -7.62 0)
 			(effects
@@ -987,14 +964,10 @@
 			)
 		)
 		603WAF1001T5E (1kohm , 0603)"
-			(at 0 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(id 1) (at 0 -5.08 0)
+			(effects (font (size 1.27 1.27)))
 		)
+
 		(property "Footprint" "easyeda2kicad:R0603"
 			(at 0 -7.62 0)
 			(effects
@@ -1114,14 +1087,10 @@
 			)
 		)
 		603WAF1002T5E (10kohm , 0603)"
-			(at 0 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(id 1) (at 0 -5.08 0)
+			(effects (font (size 1.27 1.27)))
 		)
+
 		(property "Footprint" "easyeda2kicad:R0603"
 			(at 0 -7.62 0)
 			(effects
@@ -1241,14 +1210,10 @@
 			)
 		)
 		603WAF1003T5E (100kohm , 0603)"
-			(at 0 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(id 1) (at 0 -5.08 0)
+			(effects (font (size 1.27 1.27)))
 		)
+
 		(property "Footprint" "easyeda2kicad:R0603"
 			(at 0 -7.62 0)
 			(effects
@@ -1367,13 +1332,10 @@
 			)
 		)
 		603WAF1200T5E"
-			(at 0 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(id 1) (at 0 -5.08 0)
+			(effects (font (size 1.27 1.27)))
 		)
+
 		(property "Footprint" "easyeda2kicad:R0603"
 			(at 0 -7.62 0)
 			(effects
@@ -1474,13 +1436,10 @@
 			)
 		)
 		603WAF1202T5E"
-			(at 0 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(id 1) (at 0 -5.08 0)
+			(effects (font (size 1.27 1.27)))
 		)
+
 		(property "Footprint" "easyeda2kicad:R0603"
 			(at 0 -7.62 0)
 			(effects
@@ -1582,14 +1541,10 @@
 			)
 		)
 		603WAF1431T5E ( 1.43kohm , 0603)"
-			(at 0 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(id 1) (at 0 -5.08 0)
+			(effects (font (size 1.27 1.27)))
 		)
+
 		(property "Footprint" "easyeda2kicad:R0603"
 			(at 0 -7.62 0)
 			(effects
@@ -1710,14 +1665,10 @@
 			)
 		)
 		603WAF220JT5E (22ohm , 0603)"
-			(at 0 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(id 1) (at 0 -5.08 0)
+			(effects (font (size 1.27 1.27)))
 		)
+
 		(property "Footprint" "easyeda2kicad:R0603"
 			(at 0 -7.62 0)
 			(effects
@@ -1836,13 +1787,10 @@
 			)
 		)
 		603WAF2402T5E"
-			(at 0 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(id 1) (at 0 -5.08 0)
+			(effects (font (size 1.27 1.27)))
 		)
+
 		(property "Footprint" "easyeda2kicad:R0603"
 			(at 0 -7.62 0)
 			(effects
@@ -1944,14 +1892,10 @@
 			)
 		)
 		603WAF3300T5E (330ohm ,0603)"
-			(at 0 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(id 1) (at 0 -5.08 0)
+			(effects (font (size 1.27 1.27)))
 		)
+
 		(property "Footprint" "easyeda2kicad:R0603"
 			(at 0 -7.62 0)
 			(effects
@@ -2071,14 +2015,10 @@
 			)
 		)
 		603WAF4700T5E (470ohm ,0603)"
-			(at 0 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(id 1) (at 0 -5.08 0)
+			(effects (font (size 1.27 1.27)))
 		)
+
 		(property "Footprint" "easyeda2kicad:R0603"
 			(at 0 -7.62 0)
 			(effects
@@ -2198,14 +2138,10 @@
 			)
 		)
 		603WAF5101T5E (5.1kohm , 0603)"
-			(at 0 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(id 1) (at 0 -5.08 0)
+			(effects (font (size 1.27 1.27)))
 		)
+
 		(property "Footprint" "easyeda2kicad:R0603"
 			(at 0 -7.62 0)
 			(effects
@@ -2325,14 +2261,10 @@
 			)
 		)
 		603WAF7502T5E (75kohm , 0603)"
-			(at 0 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(id 1) (at 0 -5.08 0)
+			(effects (font (size 1.27 1.27)))
 		)
+
 		(property "Footprint" "easyeda2kicad:R0603"
 			(at 0 -7.62 0)
 			(effects
@@ -2452,14 +2384,10 @@
 			)
 		)
 		603WAF8060T5E ( 806ohm , 0603)"
-			(at 0 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(id 1) (at 0 -5.08 0)
+			(effects (font (size 1.27 1.27)))
 		)
+
 		(property "Footprint" "easyeda2kicad:R0603"
 			(at 0 -7.62 0)
 			(effects
@@ -18450,32 +18378,12 @@
     (on_board yes)
     (property
       "Reference"
-      "C"
-      (id 0)
-      (at 0 5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
     (property
       "Footprint"
-      "easyeda2kicad:C1210"
-      (id 2)
-      (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
     (property
       "Datasheet"
-      "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL32A107MQVNNNE_100uF-107-20-6-3V_C49066.html"
-      (id 3)
-      (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
     (property
       "LCSC Part"
-      "C49066"
-      (id 5)
-      (at 0 -12.70 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
     (symbol "CL32A107MQVNNNE (100uF , 6.3V , ±20% , X5R)_0_1"
       (polyline
         (pts
@@ -18557,32 +18465,12 @@
     (on_board yes)
     (property
       "Reference"
-      "C"
-      (id 0)
-      (at 0 5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
     (property
       "Footprint"
-      "easyeda2kicad:C1210"
-      (id 2)
-      (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
     (property
       "Datasheet"
-      "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL32A107MQVNNNE_100uF-107-20-6-3V_C49066.html"
-      (id 3)
-      (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
     (property
       "LCSC Part"
-      "C49066"
-      (id 5)
-      (at 0 -12.70 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
     (symbol "CL32A107MQVNNNE (100uF , 6.3V , ±20% , X5R)_0_1"
       (polyline
         (pts
@@ -18664,25 +18552,10 @@
     (on_board yes)
     (property
       "Reference"
-      "CN"
-      (id 0)
-      (at 0 22.86 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
     (property
       "Footprint"
-      "easyeda2kicad:CONN-SMD_X1251WVS-11HF-LPSW"
-      (id 2)
-      (at 0 -25.40 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
     (property
       "LCSC Part"
-      "C706968"
-      (id 5)
-      (at 0 -27.94 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
     (symbol "X1251WVS-11HF-LPSW_0_1"
       (rectangle
         (start -2.54 15.24)
@@ -18786,32 +18659,12 @@
     (on_board yes)
     (property
       "Reference"
-      "C"
-      (id 0)
-      (at 0 5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
     (property
       "Footprint"
-      "easyeda2kicad:C0603"
-      (id 2)
-      (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
     (property
       "Datasheet"
-      "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10C120JB8NNNC_12pF-120-5-50V_C38523.html"
-      (id 3)
-      (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
     (property
       "LCSC Part"
-      "C38523"
-      (id 5)
-      (at 0 -12.70 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
     (symbol "CL10C120JB8NNNC (12pF , 0603 , 50V , ±5% , C0G)_0_1"
       (polyline
         (pts
@@ -18885,41 +18738,23 @@
   )
   (symbol "0603WAF2200T5E (220Ω , 0603)"
 
-	603WAF2200T5E (220Ω , 0603)"
+	(property "Value" "0603WAF2200T5E (220Ω , 0603)"
 		(id 1) (at 0 -5.08 0)
 		(effects (font (size 1.27 1.27)))
 	)
+
+
     (in_bom yes)
     (on_board yes)
     (property
       "Reference"
-      "R"
-      (id 0)
-      (at 0 5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
 
     (property
       "Footprint"
-      "easyeda2kicad:R0603"
-      (id 2)
-      (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
     (property
       "Datasheet"
-      "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_220R-2200-1_C22962.html"
-      (id 3)
-      (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
     (property
       "LCSC Part"
-      "C22962"
-      (id 5)
-      (at 0 -12.70 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
     (symbol "0603WAF2200T5E (220Ω , 0603)_0_1"
       (rectangle
         (start -2.54 1.02)
@@ -18976,32 +18811,12 @@
     (on_board yes)
     (property
       "Reference"
-      "C"
-      (id 0)
-      (at 0 5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
     (property
       "Footprint"
-      "easyeda2kicad:C1210"
-      (id 2)
-      (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
     (property
       "Datasheet"
-      "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL32A107MQVNNNE_100uF-107-20-6-3V_C49066.html"
-      (id 3)
-      (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
     (property
       "LCSC Part"
-      "C49066"
-      (id 5)
-      (at 0 -12.70 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
     (symbol "CL32A107MQVNNNE_0_1"
       (polyline
         (pts
@@ -19055,32 +18870,12 @@
     (on_board yes)
     (property
       "Reference"
-      "C"
-      (id 0)
-      (at 0 5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
     (property
       "Footprint"
-      "easyeda2kicad:C0603"
-      (id 2)
-      (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
     (property
       "Datasheet"
-      "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10C120JB8NNNC_12pF-120-5-50V_C38523.html"
-      (id 3)
-      (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
     (property
       "LCSC Part"
-      "C38523"
-      (id 5)
-      (at 0 -12.70 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
     (symbol "CL10C120JB8NNNC (12pF , 0603 , 50V , ±5% , C0G)_0_1"
       (polyline
         (pts
