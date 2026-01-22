@@ -18918,11 +18918,7 @@
       (at 0 5.08 0)
       (effects (font (size 1.27 1.27) ) )
     )
-    603WAF2200T5E (220Ω , 0603)"
-      (id 1)
-      (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
+
     (property
       "Footprint"
       "easyeda2kicad:R0603"
@@ -18991,6 +18987,11 @@
 		)
   )
   (symbol "CL32A107MQVNNNE"
+
+	(property "Value" "CL32A107MQVNNNE"
+		(id 1) (at 0 -5.08 0)
+		(effects (font (size 1.27 1.27)))
+	)
     (in_bom yes)
     (on_board yes)
     (property
@@ -19001,8 +19002,6 @@
       (effects (font (size 1.27 1.27) ) )
     )
     (property
-      "Value"
-      "CL32A107MQVNNNE"
       (id 1)
       (at 0 -5.08 0)
       (effects (font (size 1.27 1.27) ) )
@@ -19072,6 +19071,11 @@
     )
   )
   (symbol "CL10C120JB8NNNC"
+
+	(property "Value" "CL10C120JB8NNNC"
+		(id 1) (at 0 -5.08 0)
+		(effects (font (size 1.27 1.27)))
+	)
     (in_bom yes)
     (on_board yes)
     (property
@@ -19082,8 +19086,6 @@
       (effects (font (size 1.27 1.27) ) )
     )
     (property
-      "Value"
-      "CL10C120JB8NNNC"
       (id 1)
       (at 0 -5.08 0)
       (effects (font (size 1.27 1.27) ) )
