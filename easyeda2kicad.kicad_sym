@@ -15,7 +15,7 @@
 				)
 			)
 		)
-		(property "Value" "0402WGF1002TCE (10kohm , 0402)"
+		402WGF1002TCE (10kohm , 0402)"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -142,7 +142,7 @@
 				)
 			)
 		)
-		(property "Value" "0402WGF1003TCE (100kohm , 0402)"
+		402WGF1003TCE (100kohm , 0402)"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -269,7 +269,7 @@
 				)
 			)
 		)
-		(property "Value" "0402WGF3300TCE (330ohm ,0402)"
+		402WGF3300TCE (330ohm ,0402)"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -395,7 +395,7 @@
 				)
 			)
 		)
-		(property "Value" "0603ESDA-05N (usb , esd , 0603)"
+		603ESDA-05N (usb , esd , 0603)"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -528,7 +528,7 @@
 				)
 			)
 		)
-		(property "Value" "0603 Green 509-620mcd"
+		603Green509-620mcd (led green 0603)"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -732,7 +732,7 @@
 				)
 			)
 		)
-		(property "Value" "0603WAF0000T5E (0ohm , 0603)"
+		603WAF0000T5E (0ohm , 0603)"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -859,7 +859,7 @@
 				)
 			)
 		)
-		(property "Value" "0603WAF1000T5E (100ohm , 0603)"
+		603WAF1000T5E (100ohm , 0603)"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -986,7 +986,7 @@
 				)
 			)
 		)
-		(property "Value" "0603WAF1001T5E (1kohm , 0603)"
+		603WAF1001T5E (1kohm , 0603)"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -1113,7 +1113,7 @@
 				)
 			)
 		)
-		(property "Value" "0603WAF1002T5E (10kohm , 0603)"
+		603WAF1002T5E (10kohm , 0603)"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -1240,7 +1240,7 @@
 				)
 			)
 		)
-		(property "Value" "0603WAF1003T5E (100kohm , 0603)"
+		603WAF1003T5E (100kohm , 0603)"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -1366,7 +1366,7 @@
 				)
 			)
 		)
-		(property "Value" "0603WAF1200T5E"
+		603WAF1200T5E"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -1473,7 +1473,7 @@
 				)
 			)
 		)
-		(property "Value" "0603WAF1202T5E"
+		603WAF1202T5E"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -1581,7 +1581,7 @@
 				)
 			)
 		)
-		(property "Value" "0603WAF1431T5E ( 1.43kohm , 0603)"
+		603WAF1431T5E ( 1.43kohm , 0603)"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -1709,7 +1709,7 @@
 				)
 			)
 		)
-		(property "Value" "0603WAF220JT5E (22ohm , 0603)"
+		603WAF220JT5E (22ohm , 0603)"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -1835,7 +1835,7 @@
 				)
 			)
 		)
-		(property "Value" "0603WAF2402T5E"
+		603WAF2402T5E"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -1943,7 +1943,7 @@
 				)
 			)
 		)
-		(property "Value" "0603WAF3300T5E (330ohm ,0603)"
+		603WAF3300T5E (330ohm ,0603)"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -2070,7 +2070,7 @@
 				)
 			)
 		)
-		(property "Value" "0603WAF4700T5E (470ohm ,0603)"
+		603WAF4700T5E (470ohm ,0603)"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -2197,7 +2197,7 @@
 				)
 			)
 		)
-		(property "Value" "0603WAF5101T5E (5.1kohm , 0603)"
+		603WAF5101T5E (5.1kohm , 0603)"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -2324,7 +2324,7 @@
 				)
 			)
 		)
-		(property "Value" "0603WAF7502T5E (75kohm , 0603)"
+		603WAF7502T5E (75kohm , 0603)"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -2451,7 +2451,7 @@
 				)
 			)
 		)
-		(property "Value" "0603WAF8060T5E ( 806ohm , 0603)"
+		603WAF8060T5E ( 806ohm , 0603)"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -10518,7 +10518,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP73833T-AMI/MF"
+		(property "Value" "MCP73833T-AMI_MF"
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -13152,7 +13152,7 @@
 				)
 			)
 		)
-		(property "Value" "SM04B-SRSS-TB (LF)(SN)"
+		(property "Value" "SM04B-SRSS-TB(LF)(SN) (4pin connector)"
 			(at 0 -1.27 0)
 			(effects
 				(font
@@ -15504,7 +15504,7 @@
 				)
 			)
 		)
-		(property "Value" "TF PUSH"
+		(property "Value" "TFPUSH (Micro SD card)"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -16473,7 +16473,7 @@
 				)
 			)
 		)
-		(property "Value" "TYPE-C 16PIN 2MD(073)"
+		(property "Value" "TYPE-C16PIN2MD(073) (USB TYPE C 16P)"
 			(at 0 -19.05 0)
 			(effects
 				(font
@@ -16807,7 +16807,7 @@
 				)
 			)
 		)
-		(property "Value" "TYPE-C 6P(073)"
+		(property "Value" "TYPE-C6P(073)"
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -18885,7 +18885,7 @@
   )
   (symbol "0603WAF2200T5E (220Ω , 0603)"
 
-	(property "Value" "0603WAF2200T5E (220Ω , 0603)"
+	603WAF2200T5E (220Ω , 0603)"
 		(id 1) (at 0 -5.08 0)
 		(effects (font (size 1.27 1.27)))
 	)
