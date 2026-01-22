@@ -18456,11 +18456,6 @@
       (effects (font (size 1.27 1.27) ) )
     )
     (property
-      (id 1)
-      (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
       "Footprint"
       "easyeda2kicad:C1210"
       (id 2)
@@ -18568,11 +18563,6 @@
       (effects (font (size 1.27 1.27) ) )
     )
     (property
-      (id 1)
-      (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
       "Footprint"
       "easyeda2kicad:C1210"
       (id 2)
@@ -18677,11 +18667,6 @@
       "CN"
       (id 0)
       (at 0 22.86 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      (id 1)
-      (at 0 -22.86 0)
       (effects (font (size 1.27 1.27) ) )
     )
     (property
@@ -18804,11 +18789,6 @@
       "C"
       (id 0)
       (at 0 5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      (id 1)
-      (at 0 -5.08 0)
       (effects (font (size 1.27 1.27) ) )
     )
     (property
@@ -19002,11 +18982,6 @@
       (effects (font (size 1.27 1.27) ) )
     )
     (property
-      (id 1)
-      (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
       "Footprint"
       "easyeda2kicad:C1210"
       (id 2)
@@ -19083,11 +19058,6 @@
       "C"
       (id 0)
       (at 0 5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      (id 1)
-      (at 0 -5.08 0)
       (effects (font (size 1.27 1.27) ) )
     )
     (property
