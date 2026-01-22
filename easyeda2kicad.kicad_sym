@@ -18441,6 +18441,11 @@
 
   
   (symbol "CL32A107MQVNNNE (100uF , 6.3V , ±20% , X5R)"
+
+	(property "Value" "CL32A107MQVNNNE (100uF , 6.3V , ±20% , X5R)"
+		(id 1) (at 0 -5.08 0)
+		(effects (font (size 1.27 1.27)))
+	)
     (in_bom yes)
     (on_board yes)
     (property
@@ -18452,7 +18457,6 @@
     )
     (property
       "Value"
-      "CL32A107MQVNNNE (100uF , 6.3V , ±20% , X5R)"
       (id 1)
       (at 0 -5.08 0)
       (effects (font (size 1.27 1.27) ) )
@@ -18550,6 +18554,11 @@
 		)
   )
   (symbol "CL32A107MQVNNNE (100uF , 6.3V , ±20% , X5R)"
+
+	(property "Value" "CL32A107MQVNNNE (100uF , 6.3V , ±20% , X5R)"
+		(id 1) (at 0 -5.08 0)
+		(effects (font (size 1.27 1.27)))
+	)
     (in_bom yes)
     (on_board yes)
     (property
@@ -18561,7 +18570,6 @@
     )
     (property
       "Value"
-      "CL32A107MQVNNNE (100uF , 6.3V , ±20% , X5R)"
       (id 1)
       (at 0 -5.08 0)
       (effects (font (size 1.27 1.27) ) )
@@ -18659,6 +18667,11 @@
 		)
   )
   (symbol "X1251WVS-11HF-LPSW"
+
+	(property "Value" "X1251WVS-11HF-LPSW"
+		(id 1) (at 0 -5.08 0)
+		(effects (font (size 1.27 1.27)))
+	)
     (in_bom yes)
     (on_board yes)
     (property
@@ -18670,7 +18683,6 @@
     )
     (property
       "Value"
-      "X1251WVS-11HF-LPSW"
       (id 1)
       (at 0 -22.86 0)
       (effects (font (size 1.27 1.27) ) )
@@ -18783,6 +18795,11 @@
     )
   )
   (symbol "CL10C120JB8NNNC (12pF , 0603 , 50V , ±5% , C0G)"
+
+	(property "Value" "CL10C120JB8NNNC (12pF , 0603 , 50V , ±5% , C0G)"
+		(id 1) (at 0 -5.08 0)
+		(effects (font (size 1.27 1.27)))
+	)
     (in_bom yes)
     (on_board yes)
     (property
@@ -18794,7 +18811,6 @@
     )
     (property
       "Value"
-      "CL10C120JB8NNNC (12pF , 0603 , 50V , ±5% , C0G)"
       (id 1)
       (at 0 -5.08 0)
       (effects (font (size 1.27 1.27) ) )
