@@ -3388,7 +3388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1mΩ 5W Shunt ±100ppm/℃ ±1% 2512 Chip Resistor - Surface Mount RoHS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5851,7 +5851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "12pF ±5% 50V Ceramic Capacitor C0G 0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6664,8 +6664,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "100uF ±20% 6.3V Ceramic Capacitor X5R 1210"
+			(at -0.254 -3.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8325,7 +8325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "6A 1uH 7A 27mΩ Molded Inductor ±20% SMD,4.4x4.2mm Fixed Inductors RoHS"
 			(at 0 0 0)
 			(effects
 				(font
