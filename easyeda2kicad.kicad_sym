@@ -9631,7 +9631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Current sensor - 300mV~40V"
 			(at 0 0 0)
 			(effects
 				(font
@@ -17264,7 +17264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5MHz Buck Adjustable VIN: 800mV~58.8V iout: 5A SOIC-8-EP Voltage Regulators - DC DC Switching Regulators RoHS"
 			(at 0 0 0)
 			(effects
 				(font
