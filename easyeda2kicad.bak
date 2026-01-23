@@ -15,7 +15,7 @@
 				)
 			)
 		)
-		(property "Value" "0402WGF1002TCE (10kohm , 0402)"
+		(property "Value" "402WGF1002TCE (10kohm , 0402)"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -142,7 +142,7 @@
 				)
 			)
 		)
-		(property "Value" "0402WGF1003TCE (100kohm , 0402)"
+		(property "Value" "402WGF1003TCE (100kohm , 0402)"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -269,7 +269,7 @@
 				)
 			)
 		)
-		(property "Value" "0402WGF3300TCE (330ohm ,0402)"
+		(property "Value" "402WGF3300TCE (330ohm ,0402)"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -395,7 +395,7 @@
 				)
 			)
 		)
-		(property "Value" "0603ESDA-05N (usb , esd , 0603)"
+		(property "Value" "603ESDA-05N (usb , esd , 0603)"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -528,7 +528,7 @@
 				)
 			)
 		)
-		(property "Value" "0603 Green 509-620mcd"
+		(property "Value" "603Green509-620mcd (led green 0603)"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -732,7 +732,7 @@
 				)
 			)
 		)
-		(property "Value" "0603WAF0000T5E (0ohm , 0603)"
+		(property "Value" "603WAF0000T5E (0ohm , 0603)"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -859,7 +859,7 @@
 				)
 			)
 		)
-		(property "Value" "0603WAF1000T5E (100ohm , 0603)"
+		(property "Value" "603WAF1000T5E (100ohm , 0603)"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -986,7 +986,7 @@
 				)
 			)
 		)
-		(property "Value" "0603WAF1001T5E (1kohm , 0603)"
+		(property "Value" "603WAF1001T5E (1kohm , 0603)"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -1113,7 +1113,7 @@
 				)
 			)
 		)
-		(property "Value" "0603WAF1002T5E (10kohm , 0603)"
+		(property "Value" "603WAF1002T5E (10kohm , 0603)"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -1240,7 +1240,7 @@
 				)
 			)
 		)
-		(property "Value" "0603WAF1003T5E (100kohm , 0603)"
+		(property "Value" "603WAF1003T5E (100kohm , 0603)"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -1354,24 +1354,26 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "0603WAF1200T5E"
+	(symbol "0603WAF1200T5E (120ohm,0603)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R"
-			(at 0 5.08 0)
+			(at 0 2.286 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0603WAF1200T5E"
+		(property "Value" "603WAF1200T5E"
 			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "easyeda2kicad:R0603"
@@ -1410,7 +1412,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0603WAF1200T5E_0_1"
+		(symbol "0603WAF1200T5E (120ohm,0603)_0_1"
 			(rectangle
 				(start -2.54 1.02)
 				(end 2.54 -1.02)
@@ -1425,7 +1427,7 @@
 			(pin input line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "1"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1443,7 +1445,7 @@
 			(pin input line
 				(at 5.08 0 180)
 				(length 2.54)
-				(name "2"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1459,26 +1461,46 @@
 				)
 			)
 		)
+		(symbol "0603WAF1200T5E (120ohm,0603)_1_1"
+			(text "0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "120Ω"
+				(at 0 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
 		(embedded_fonts no)
 	)
-	(symbol "0603WAF1202T5E"
+	(symbol "0603WAF1202T5E (12kohm , 0603)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R"
-			(at 0 5.08 0)
+			(at 0 2.032 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0603WAF1202T5E"
+		(property "Value" "603WAF1202T5E"
 			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "easyeda2kicad:R0603"
@@ -1517,7 +1539,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0603WAF1202T5E_0_1"
+		(symbol "0603WAF1202T5E (12kohm , 0603)_0_1"
 			(rectangle
 				(start -2.54 1.02)
 				(end 2.54 -1.02)
@@ -1532,7 +1554,7 @@
 			(pin input line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "1"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1550,7 +1572,7 @@
 			(pin input line
 				(at 5.08 0 180)
 				(length 2.54)
-				(name "2"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1562,6 +1584,24 @@
 						(font
 							(size 1.27 1.27)
 						)
+					)
+				)
+			)
+		)
+		(symbol "0603WAF1202T5E (12kohm , 0603)_1_1"
+			(text "0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "12kΩ"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -1581,7 +1621,7 @@
 				)
 			)
 		)
-		(property "Value" "0603WAF1431T5E ( 1.43kohm , 0603)"
+		(property "Value" "603WAF1431T5E ( 1.43kohm , 0603)"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -1695,7 +1735,6 @@
 		)
 		(embedded_fonts no)
 	)
-	
 	(symbol "0603WAF220JT5E (22ohm , 0603)"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1709,7 +1748,7 @@
 				)
 			)
 		)
-		(property "Value" "0603WAF220JT5E (22ohm , 0603)"
+		(property "Value" "603WAF220JT5E (22ohm , 0603)"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -1823,24 +1862,26 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "0603WAF2402T5E"
+	(symbol "0603WAF2402T5E (24kohm , 0603)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R"
-			(at 0 5.08 0)
+			(at 0 2.032 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0603WAF2402T5E"
+		(property "Value" "603WAF2402T5E"
 			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "easyeda2kicad:R0603"
@@ -1879,7 +1920,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0603WAF2402T5E_0_1"
+		(symbol "0603WAF2402T5E (24kohm , 0603)_0_1"
 			(rectangle
 				(start -2.54 1.02)
 				(end 2.54 -1.02)
@@ -1894,7 +1935,7 @@
 			(pin input line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "1"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1912,7 +1953,7 @@
 			(pin input line
 				(at 5.08 0 180)
 				(length 2.54)
-				(name "2"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1924,6 +1965,24 @@
 						(font
 							(size 1.27 1.27)
 						)
+					)
+				)
+			)
+		)
+		(symbol "0603WAF2402T5E (24kohm , 0603)_1_1"
+			(text "0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "24kΩ"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -1943,7 +2002,7 @@
 				)
 			)
 		)
-		(property "Value" "0603WAF3300T5E (330ohm ,0603)"
+		(property "Value" "603WAF3300T5E (330ohm ,0603)"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -2070,7 +2129,7 @@
 				)
 			)
 		)
-		(property "Value" "0603WAF4700T5E (470ohm ,0603)"
+		(property "Value" "603WAF4700T5E (470ohm ,0603)"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -2197,7 +2256,7 @@
 				)
 			)
 		)
-		(property "Value" "0603WAF5101T5E (5.1kohm , 0603)"
+		(property "Value" "603WAF5101T5E (5.1kohm , 0603)"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -2324,7 +2383,7 @@
 				)
 			)
 		)
-		(property "Value" "0603WAF7502T5E (75kohm , 0603)"
+		(property "Value" "603WAF7502T5E (75kohm , 0603)"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -2451,7 +2510,7 @@
 				)
 			)
 		)
-		(property "Value" "0603WAF8060T5E ( 806ohm , 0603)"
+		(property "Value" "603WAF8060T5E ( 806ohm , 0603)"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -3152,6 +3211,133 @@
 				)
 			)
 			(text "1.43kΩ"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "ASR-M-3-1F_C7370895 (1mohm ,  2512 , 5W )"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0 2.286 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ASR-M-3-1F_C7370895 (1mohm ,  2512 , 5W )"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:RES-SMD_L6.3-W3.1-1"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7370895"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "ASR-M-3-1F_C7370895 (1mohm ,  2512 , 5W )_0_1"
+			(rectangle
+				(start -2.54 1.27)
+				(end 2.54 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ASR-M-3-1F_C7370895 (1mohm ,  2512 , 5W )_1_1"
+			(text "2512"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "1mΩ"
 				(at 0 -2.286 0)
 				(effects
 					(font
@@ -4876,24 +5062,26 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "CL10B102KB8NNNC"
+	(symbol "CL10B102KB8NNNC (1nf , 0603 ,  50V , X7R)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
-			(at 0 5.08 0)
+			(at 0 3.048 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "CL10B102KB8NNNC"
+		(property "Value" "CL10B102KB8NNNC (1nf , 0603 ,  50V , X7R)"
 			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "easyeda2kicad:C0603"
@@ -4932,7 +5120,19 @@
 				(hide yes)
 			)
 		)
-		(symbol "CL10B102KB8NNNC_0_1"
+		(symbol "CL10B102KB8NNNC (1nf , 0603 ,  50V , X7R)_0_1"
+			(polyline
+				(pts
+					(xy -1.27 0) (xy -3.3 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
 					(xy -1.27 0) (xy -0.51 0)
@@ -4981,10 +5181,31 @@
 					(type none)
 				)
 			)
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 0.51 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "50V"
+				(at 1.778 0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 255 28 28 1)
+					)
+				)
+			)
 			(pin input line
-				(at -3.81 0 0)
+				(at -5.08 0 0)
 				(length 2.54)
-				(name "1"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5000,9 +5221,9 @@
 				)
 			)
 			(pin input line
-				(at 3.81 0 180)
+				(at 5.08 0 180)
 				(length 2.54)
-				(name "2"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5018,26 +5239,64 @@
 				)
 			)
 		)
+		(symbol "CL10B102KB8NNNC (1nf , 0603 ,  50V , X7R)_1_1"
+			(text "±10%"
+				(at -2.032 -0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "X7R"
+				(at -1.778 0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "0603"
+				(at 0 0 900)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(text "1nF"
+				(at 2.54 -1.016 0)
+				(effects
+					(font
+						(size 0.889 0.889)
+					)
+				)
+			)
+		)
 		(embedded_fonts no)
 	)
-	(symbol "CL10B103KB8NNNC"
+	(symbol "CL10B103KB8NNNC (10nf , 0603 , 50v , X7R)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
-			(at 0 5.08 0)
+			(at 0 3.048 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "CL10B103KB8NNNC"
+		(property "Value" "CL10B103KB8NNNC (10nf , 0603 , 50v , X7R)"
 			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "easyeda2kicad:C0603"
@@ -5076,7 +5335,19 @@
 				(hide yes)
 			)
 		)
-		(symbol "CL10B103KB8NNNC_0_1"
+		(symbol "CL10B103KB8NNNC (10nf , 0603 , 50v , X7R)_0_1"
+			(polyline
+				(pts
+					(xy -1.27 0) (xy -3.3 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
 					(xy -1.27 0) (xy -0.51 0)
@@ -5125,10 +5396,31 @@
 					(type none)
 				)
 			)
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 0.51 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "50V"
+				(at 1.778 0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 255 28 28 1)
+					)
+				)
+			)
 			(pin input line
-				(at -3.81 0 0)
+				(at -5.08 0 0)
 				(length 2.54)
-				(name "1"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5144,9 +5436,9 @@
 				)
 			)
 			(pin input line
-				(at 3.81 0 180)
+				(at 5.08 0 180)
 				(length 2.54)
-				(name "2"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5158,6 +5450,42 @@
 						(font
 							(size 1.27 1.27)
 						)
+					)
+				)
+			)
+		)
+		(symbol "CL10B103KB8NNNC (10nf , 0603 , 50v , X7R)_1_1"
+			(text "±10%"
+				(at -2.032 -0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "X7R"
+				(at -1.778 0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "0603"
+				(at 0 0 900)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(text "10nF"
+				(at 2.54 -1.016 0)
+				(effects
+					(font
+						(size 0.889 0.889)
 					)
 				)
 			)
@@ -5347,6 +5675,221 @@
 			)
 			(text "1uF"
 				(at 2.794 -1.016 0)
+				(effects
+					(font
+						(size 0.889 0.889)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "CL10C120JB8NNNC ( 12pf , 0603 , 50v , C0G)"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0 3.048 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CL10C120JB8NNNC ( 12pf , 0603 , 50v , C0G)"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0603"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10C120JB8NNNC_12pF-120-5-50V_C38523.html"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C38523"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CL10C120JB8NNNC ( 12pf , 0603 , 50v , C0G)_0_1"
+			(polyline
+				(pts
+					(xy -1.27 0) (xy -3.3 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 0) (xy -0.51 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.51 2.03) (xy -0.51 -2.03)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.51 2.03) (xy 0.51 -2.03)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.51 0) (xy 1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 0.51 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "50V"
+				(at 1.778 0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 255 28 28 1)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "CL10C120JB8NNNC ( 12pf , 0603 , 50v , C0G)_1_1"
+			(text "±5%"
+				(at -2.032 -0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "C0G"
+				(at -1.778 0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "0603"
+				(at 0 0 900)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(text "12pF"
+				(at 2.54 -1.016 0)
 				(effects
 					(font
 						(size 0.889 0.889)
@@ -5955,24 +6498,26 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "CR0603FA7502G"
+	(symbol "CR0603FA7502G (75kohm , 0603)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R"
-			(at 0 5.08 0)
+			(at 0 2.032 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "CR0603FA7502G"
+		(property "Value" "CR0603FA7502G (75kohm , 0603)"
 			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "easyeda2kicad:R0603"
@@ -6011,7 +6556,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "CR0603FA7502G_0_1"
+		(symbol "CR0603FA7502G (75kohm , 0603)_0_1"
 			(rectangle
 				(start -2.54 1.02)
 				(end 2.54 -1.02)
@@ -6026,7 +6571,7 @@
 			(pin input line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "1"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6044,7 +6589,7 @@
 			(pin input line
 				(at 5.08 0 180)
 				(length 2.54)
-				(name "2"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6056,6 +6601,24 @@
 						(font
 							(size 1.27 1.27)
 						)
+					)
+				)
+			)
+		)
+		(symbol "CR0603FA7502G (75kohm , 0603)_1_1"
+			(text "0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "75kΩ"
+				(at 0.254 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -7133,24 +7696,26 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "FRC0603F4701TS"
+	(symbol "FRC0603F4701TS (4.7kohm , 0603)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R"
-			(at 0 5.08 0)
+			(at 0 2.286 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "FRC0603F4701TS"
+		(property "Value" "FRC0603F4701TS (4.7kohm , 0603)"
 			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "easyeda2kicad:R0603"
@@ -7189,7 +7754,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "FRC0603F4701TS_0_1"
+		(symbol "FRC0603F4701TS (4.7kohm , 0603)_0_1"
 			(rectangle
 				(start -2.54 1.27)
 				(end 2.54 -1.27)
@@ -7204,7 +7769,7 @@
 			(pin unspecified line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "1"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7222,7 +7787,7 @@
 			(pin unspecified line
 				(at 5.08 0 180)
 				(length 2.54)
-				(name "2"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7234,6 +7799,24 @@
 						(font
 							(size 1.27 1.27)
 						)
+					)
+				)
+			)
+		)
+		(symbol "FRC0603F4701TS (4.7kohm , 0603)_1_1"
+			(text "0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "4.7kΩ"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -7378,6 +7961,162 @@
 						(font
 							(size 1.27 1.27)
 						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "FXL0420-1R0-M ( Inductor 1uH 6A 27mΩ  4.4mm x 4.2mm)"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 0 2.54 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FXL0420-1R0-M ( Inductor 1uH 6A 27mΩ  4.4mm x 4.2mm)"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:IND-SMD_L4.4-W4.2"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Power-Inductors_1uH-20_C167203.html"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C167203"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "FXL0420-1R0-M ( Inductor 1uH 6A 27mΩ  4.4mm x 4.2mm)_0_1"
+			(arc
+				(start -2.27 -0.02)
+				(mid -3.28 -1.1255)
+				(end -4.29 -0.02)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -0.11 -0.02)
+				(mid -1.12 -1.1204)
+				(end -2.13 -0.02)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.04 -0.02)
+				(mid 1.03 -1.1204)
+				(end 0.02 -0.02)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4.23 -0.02)
+				(mid 3.22 -1.1204)
+				(end 2.21 -0.02)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 0 0)
+				(length 0.762)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 5.08 0 180)
+				(length 0.762)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "FXL0420-1R0-M ( Inductor 1uH 6A 27mΩ  4.4mm x 4.2mm)_1_1"
+			(text "1uH"
+				(at -0.508 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -8844,6 +9583,257 @@
 					)
 				)
 				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "INA226AIDGSR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA226AIDGSR"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:MSOP-10_L3.0-W3.0-P0.50-LS5.0-BL"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/PMIC-Current-Regulation_TI_INA226AIDGSR_INA226AIDGSR_C49851.html"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C49851"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "INA226AIDGSR_0_1"
+			(rectangle
+				(start -7.62 7.62)
+				(end 7.62 -7.62)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 5.08 0)
+				(length 5.08)
+				(name "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 2.54 0)
+				(length 5.08)
+				(name "A0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 0 0)
+				(length 5.08)
+				(name "Alert"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 -2.54 0)
+				(length 5.08)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 -5.08 0)
+				(length 5.08)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 5.08 180)
+				(length 5.08)
+				(name "VIN+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 2.54 180)
+				(length 5.08)
+				(name "VIN-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 0 180)
+				(length 5.08)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 -2.54 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 -5.08 180)
+				(length 5.08)
+				(name "VS+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10518,7 +11508,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP73833T-AMI/MF"
+		(property "Value" "MCP73833T-AMI_MF"
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -13140,7 +14130,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "SM04B-SRSS-TB(LF)(SN) (4pin connector)"
+	(symbol "SM04B-SRSS-TB(LF)(SN) (4pin QWICC connector USE THIS )"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -13152,7 +14142,7 @@
 				)
 			)
 		)
-		(property "Value" "SM04B-SRSS-TB (LF)(SN)"
+		(property "Value" "SM04B-SRSS-TB(LF)(SN) (4pin QWICC connector USE THIS )"
 			(at 0 -1.27 0)
 			(effects
 				(font
@@ -13196,7 +14186,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "SM04B-SRSS-TB(LF)(SN) (4pin connector)_0_1"
+		(symbol "SM04B-SRSS-TB(LF)(SN) (4pin QWICC connector USE THIS )_0_1"
 			(rectangle
 				(start -11.43 1.27)
 				(end 11.43 -3.81)
@@ -15504,7 +16494,7 @@
 				)
 			)
 		)
-		(property "Value" "TF PUSH"
+		(property "Value" "TFPUSH (Micro SD card)"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -16235,6 +17225,239 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "TPS54560DDAR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS54560DDAR"
+			(at 0 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL-EP2.0"
+			(at 0 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/DC-DC-Converters_TI_TPS54560DDAR_TPS54560DDAR_C31966.html"
+			(at 0 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C31966"
+			(at 0 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TPS54560DDAR_0_1"
+			(rectangle
+				(start -10.16 6.35)
+				(end 10.16 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 3.81 0)
+				(length 5.08)
+				(name "BOOT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 1.27 0)
+				(length 5.08)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -1.27 0)
+				(length 5.08)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -3.81 0)
+				(length 5.08)
+				(name "RT/CLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -8.89 90)
+				(length 2.54)
+				(name "EP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15.24 3.81 180)
+				(length 5.08)
+				(name "SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15.24 1.27 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15.24 -1.27 180)
+				(length 5.08)
+				(name "COMP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15.24 -3.81 180)
+				(length 5.08)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "TPS631000DRLR"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16473,7 +17696,7 @@
 				)
 			)
 		)
-		(property "Value" "TYPE-C 16PIN 2MD(073)"
+		(property "Value" "TYPE-C16PIN2MD(073) (USB TYPE C 16P)"
 			(at 0 -19.05 0)
 			(effects
 				(font
@@ -16807,7 +18030,7 @@
 				)
 			)
 		)
-		(property "Value" "TYPE-C 6P(073)"
+		(property "Value" "TYPE-C6P(073)"
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -18438,717 +19661,4 @@
 		)
 		(embedded_fonts no)
 	)
-
-  
-  (symbol "CL32A107MQVNNNE (100uF , 6.3V , ±20% , X5R)"
-
-	(property "Value" "CL32A107MQVNNNE (100uF , 6.3V , ±20% , X5R)"
-		(id 1) (at 0 -5.08 0)
-		(effects (font (size 1.27 1.27)))
-	)
-    (in_bom yes)
-    (on_board yes)
-    (property
-      "Reference"
-      "C"
-      (id 0)
-      (at 0 5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      (id 1)
-      (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Footprint"
-      "easyeda2kicad:C1210"
-      (id 2)
-      (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "Datasheet"
-      "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL32A107MQVNNNE_100uF-107-20-6-3V_C49066.html"
-      (id 3)
-      (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "LCSC Part"
-      "C49066"
-      (id 5)
-      (at 0 -12.70 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (symbol "CL32A107MQVNNNE (100uF , 6.3V , ±20% , X5R)_0_1"
-      (polyline
-        (pts
-          (xy -0.51 2.03) (xy -0.51 -2.03)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.51 2.03) (xy 0.51 -2.03)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 -0.00) (xy -0.51 -0.00)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.51 -0.00) (xy 1.27 -0.00)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin input line
-        (at -3.81 -0.00 0)
-        (length 2.54)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line
-        (at 3.81 -0.00 180)
-        (length 2.54)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    
-			(text "6.3V"
-				(at 1.778 0.762 0)
-				(effects
-					(font
-						(size 0.635 0.635)
-						(color 255 28 28 1)
-					)
-				)
-			)
-			(text "X5R"
-				(at -1.778 0.762 0)
-				(effects
-					(font
-						(size 0.635 0.635)
-						(color 154 28 255 1)
-					)
-				)
-			)
-			(text "±20%"
-				(at -1.778 -0.762 0)
-				(effects
-					(font
-						(size 0.635 0.635)
-						(color 154 28 255 1)
-					)
-				)
-			)
-		)
-  )
-  (symbol "CL32A107MQVNNNE (100uF , 6.3V , ±20% , X5R)"
-
-	(property "Value" "CL32A107MQVNNNE (100uF , 6.3V , ±20% , X5R)"
-		(id 1) (at 0 -5.08 0)
-		(effects (font (size 1.27 1.27)))
-	)
-    (in_bom yes)
-    (on_board yes)
-    (property
-      "Reference"
-      "C"
-      (id 0)
-      (at 0 5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      (id 1)
-      (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Footprint"
-      "easyeda2kicad:C1210"
-      (id 2)
-      (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "Datasheet"
-      "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL32A107MQVNNNE_100uF-107-20-6-3V_C49066.html"
-      (id 3)
-      (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "LCSC Part"
-      "C49066"
-      (id 5)
-      (at 0 -12.70 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (symbol "CL32A107MQVNNNE (100uF , 6.3V , ±20% , X5R)_0_1"
-      (polyline
-        (pts
-          (xy -0.51 2.03) (xy -0.51 -2.03)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.51 2.03) (xy 0.51 -2.03)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 -0.00) (xy -0.51 -0.00)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.51 -0.00) (xy 1.27 -0.00)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin input line
-        (at -3.81 -0.00 0)
-        (length 2.54)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line
-        (at 3.81 -0.00 180)
-        (length 2.54)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    
-			(text "6.3V"
-				(at 1.778 0.762 0)
-				(effects
-					(font
-						(size 0.635 0.635)
-						(color 255 28 28 1)
-					)
-				)
-			)
-			(text "X5R"
-				(at -1.778 0.762 0)
-				(effects
-					(font
-						(size 0.635 0.635)
-						(color 154 28 255 1)
-					)
-				)
-			)
-			(text "±20%"
-				(at -1.778 -0.762 0)
-				(effects
-					(font
-						(size 0.635 0.635)
-						(color 154 28 255 1)
-					)
-				)
-			)
-		)
-  )
-  (symbol "X1251WVS-11HF-LPSW"
-
-	(property "Value" "X1251WVS-11HF-LPSW"
-		(id 1) (at 0 -5.08 0)
-		(effects (font (size 1.27 1.27)))
-	)
-    (in_bom yes)
-    (on_board yes)
-    (property
-      "Reference"
-      "CN"
-      (id 0)
-      (at 0 22.86 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      (id 1)
-      (at 0 -22.86 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Footprint"
-      "easyeda2kicad:CONN-SMD_X1251WVS-11HF-LPSW"
-      (id 2)
-      (at 0 -25.40 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "LCSC Part"
-      "C706968"
-      (id 5)
-      (at 0 -27.94 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (symbol "X1251WVS-11HF-LPSW_0_1"
-      (rectangle
-        (start -2.54 15.24)
-        (end 5.08 -15.24)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-      (circle
-        (center -1.27 13.97)
-        (radius 0.38)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin unspecified line
-        (at -5.08 12.70 0)
-        (length 2.54)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -5.08 10.16 0)
-        (length 2.54)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -5.08 7.62 0)
-        (length 2.54)
-        (name "3" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -5.08 5.08 0)
-        (length 2.54)
-        (name "4" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -5.08 2.54 0)
-        (length 2.54)
-        (name "5" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -5.08 -0.00 0)
-        (length 2.54)
-        (name "6" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -5.08 -2.54 0)
-        (length 2.54)
-        (name "7" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -5.08 -5.08 0)
-        (length 2.54)
-        (name "8" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -5.08 -7.62 0)
-        (length 2.54)
-        (name "9" (effects (font (size 1.27 1.27))))
-        (number "9" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -5.08 -10.16 0)
-        (length 2.54)
-        (name "10" (effects (font (size 1.27 1.27))))
-        (number "10" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -5.08 -12.70 0)
-        (length 2.54)
-        (name "11" (effects (font (size 1.27 1.27))))
-        (number "11" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at 3.81 -17.78 90)
-        (length 2.54)
-        (name "12" (effects (font (size 1.27 1.27))))
-        (number "12" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at 3.81 17.78 270)
-        (length 2.54)
-        (name "13" (effects (font (size 1.27 1.27))))
-        (number "13" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "CL10C120JB8NNNC (12pF , 0603 , 50V , ±5% , C0G)"
-
-	(property "Value" "CL10C120JB8NNNC (12pF , 0603 , 50V , ±5% , C0G)"
-		(id 1) (at 0 -5.08 0)
-		(effects (font (size 1.27 1.27)))
-	)
-    (in_bom yes)
-    (on_board yes)
-    (property
-      "Reference"
-      "C"
-      (id 0)
-      (at 0 5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      (id 1)
-      (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Footprint"
-      "easyeda2kicad:C0603"
-      (id 2)
-      (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "Datasheet"
-      "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10C120JB8NNNC_12pF-120-5-50V_C38523.html"
-      (id 3)
-      (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "LCSC Part"
-      "C38523"
-      (id 5)
-      (at 0 -12.70 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (symbol "CL10C120JB8NNNC (12pF , 0603 , 50V , ±5% , C0G)_0_1"
-      (polyline
-        (pts
-          (xy -0.51 2.03) (xy -0.51 -2.03)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.51 2.03) (xy 0.51 -2.03)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 -0.00) (xy -0.51 -0.00)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.51 -0.00) (xy 1.27 -0.00)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin input line
-        (at -3.81 -0.00 0)
-        (length 2.54)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line
-        (at 3.81 -0.00 180)
-        (length 2.54)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    
-			(text "50V"
-				(at 1.778 0.762 0)
-				(effects
-					(font
-						(size 0.635 0.635)
-						(color 255 28 28 1)
-					)
-				)
-			)
-			(text "C0G"
-				(at -1.778 0.762 0)
-				(effects
-					(font
-						(size 0.635 0.635)
-						(color 154 28 255 1)
-					)
-				)
-			)
-			(text "±5%"
-				(at -1.778 -0.762 0)
-				(effects
-					(font
-						(size 0.635 0.635)
-						(color 154 28 255 1)
-					)
-				)
-			)
-		)
-  )
-  (symbol "0603WAF2200T5E (220Ω , 0603)"
-
-	(property "Value" "0603WAF2200T5E (220Ω , 0603)"
-		(id 1) (at 0 -5.08 0)
-		(effects (font (size 1.27 1.27)))
-	)
-    (in_bom yes)
-    (on_board yes)
-    (property
-      "Reference"
-      "R"
-      (id 0)
-      (at 0 5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-
-    (property
-      "Footprint"
-      "easyeda2kicad:R0603"
-      (id 2)
-      (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "Datasheet"
-      "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_220R-2200-1_C22962.html"
-      (id 3)
-      (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "LCSC Part"
-      "C22962"
-      (id 5)
-      (at 0 -12.70 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (symbol "0603WAF2200T5E (220Ω , 0603)_0_1"
-      (rectangle
-        (start -2.54 1.02)
-        (end 2.54 -1.02)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-      (pin input line
-        (at 5.08 -0.00 180)
-        (length 2.54)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line
-        (at -5.08 -0.00 0)
-        (length 2.54)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-    
-			(text "0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "220Ω"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "±1%"
-				(at 0 1.524 0)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-		)
-  )
-  (symbol "CL32A107MQVNNNE"
-
-	(property "Value" "CL32A107MQVNNNE"
-		(id 1) (at 0 -5.08 0)
-		(effects (font (size 1.27 1.27)))
-	)
-    (in_bom yes)
-    (on_board yes)
-    (property
-      "Reference"
-      "C"
-      (id 0)
-      (at 0 5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      (id 1)
-      (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Footprint"
-      "easyeda2kicad:C1210"
-      (id 2)
-      (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "Datasheet"
-      "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL32A107MQVNNNE_100uF-107-20-6-3V_C49066.html"
-      (id 3)
-      (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "LCSC Part"
-      "C49066"
-      (id 5)
-      (at 0 -12.70 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (symbol "CL32A107MQVNNNE_0_1"
-      (polyline
-        (pts
-          (xy -0.51 2.03) (xy -0.51 -2.03)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.51 2.03) (xy 0.51 -2.03)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 -0.00) (xy -0.51 -0.00)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.51 -0.00) (xy 1.27 -0.00)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin input line
-        (at -3.81 -0.00 0)
-        (length 2.54)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line
-        (at 3.81 -0.00 180)
-        (length 2.54)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "CL10C120JB8NNNC"
-    (in_bom yes)
-    (on_board yes)
-    (property
-      "Reference"
-      "C"
-      (id 0)
-      (at 0 5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Value"
-      "CL10C120JB8NNNC"
-      (id 1)
-      (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Footprint"
-      "easyeda2kicad:C0603"
-      (id 2)
-      (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "Datasheet"
-      "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10C120JB8NNNC_12pF-120-5-50V_C38523.html"
-      (id 3)
-      (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "LCSC Part"
-      "C38523"
-      (id 5)
-      (at 0 -12.70 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (symbol "CL10C120JB8NNNC_0_1"
-      (polyline
-        (pts
-          (xy -0.51 2.03) (xy -0.51 -2.03)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.51 2.03) (xy 0.51 -2.03)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 -0.00) (xy -0.51 -0.00)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.51 -0.00) (xy 1.27 -0.00)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin input line
-        (at -3.81 -0.00 0)
-        (length 2.54)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line
-        (at 3.81 -0.00 180)
-        (length 2.54)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
 )

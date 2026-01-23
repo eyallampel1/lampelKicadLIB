@@ -7967,6 +7967,162 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "FXL0420-1R0-M ( Inductor 1uH 6A 27mΩ  4.4mm x 4.2mm)"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 0 2.54 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FXL0420-1R0-M ( Inductor 1uH 6A 27mΩ  4.4mm x 4.2mm)"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:IND-SMD_L4.4-W4.2"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Power-Inductors_1uH-20_C167203.html"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C167203"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "FXL0420-1R0-M ( Inductor 1uH 6A 27mΩ  4.4mm x 4.2mm)_0_1"
+			(arc
+				(start -2.27 -0.02)
+				(mid -3.28 -1.1255)
+				(end -4.29 -0.02)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -0.11 -0.02)
+				(mid -1.12 -1.1204)
+				(end -2.13 -0.02)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.04 -0.02)
+				(mid 1.03 -1.1204)
+				(end 0.02 -0.02)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 4.23 -0.02)
+				(mid 3.22 -1.1204)
+				(end 2.21 -0.02)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 0 0)
+				(length 0.762)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 5.08 0 180)
+				(length 0.762)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "FXL0420-1R0-M ( Inductor 1uH 6A 27mΩ  4.4mm x 4.2mm)_1_1"
+			(text "1uH"
+				(at -0.508 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "HB-PH9-12727PB2GOB"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13974,7 +14130,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "SM04B-SRSS-TB(LF)(SN) (4pin connector)"
+	(symbol "SM04B-SRSS-TB(LF)(SN) (4pin QWICC connector USE THIS )"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -13986,12 +14142,13 @@
 				)
 			)
 		)
-		(property "Value" "SM04B-SRSS-TB(LF)(SN) (4pin connector)"
+		(property "Value" "SM04B-SRSS-TB(LF)(SN) (4pin QWICC connector USE THIS )"
 			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "easyeda2kicad:CONN-SMD_4P-P1.00_SM04B-SRSS-TB-LF-SN"
@@ -14030,7 +14187,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "SM04B-SRSS-TB(LF)(SN) (4pin connector)_0_1"
+		(symbol "SM04B-SRSS-TB(LF)(SN) (4pin QWICC connector USE THIS )_0_1"
 			(rectangle
 				(start -11.43 1.27)
 				(end 11.43 -3.81)
@@ -19505,86 +19662,4 @@
 		)
 		(embedded_fonts no)
 	)
-
-  (symbol "FXL0420-1R0-M"
-    (in_bom yes)
-    (on_board yes)
-    (property
-      "Reference"
-      "L"
-      (id 0)
-      (at 0 5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Value"
-      "FXL0420-1R0-M"
-      (id 1)
-      (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Footprint"
-      "easyeda2kicad:IND-SMD_L4.4-W4.2"
-      (id 2)
-      (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "Datasheet"
-      "https://lcsc.com/product-detail/Power-Inductors_1uH-20_C167203.html"
-      (id 3)
-      (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "LCSC Part"
-      "C167203"
-      (id 5)
-      (at 0 -12.70 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (symbol "FXL0420-1R0-M_0_1"
-      (arc
-        (start -4.29 -0.02)
-        (mid -2.81 -1.01)
-        (end -2.27 -0.02)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (arc
-        (start -2.13 -0.02)
-        (mid -0.66 -1.01)
-        (end -0.11 -0.02)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (arc
-        (start 0.02 -0.02)
-        (mid 1.49 -1.01)
-        (end 2.04 -0.02)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (arc
-        (start 2.21 -0.02)
-        (mid 3.68 -1.01)
-        (end 4.23 -0.02)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin unspecified line
-        (at 5.08 -0.00 180)
-        (length 0.762)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -5.08 -0.00 0)
-        (length 0.762)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
 )
