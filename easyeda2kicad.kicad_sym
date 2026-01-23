@@ -1481,12 +1481,13 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "0603WAF1202T5E"
+	(symbol "0603WAF1202T5E (12kohm , 0603)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R"
-			(at 0 5.08 0)
+			(at 0 2.032 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1499,6 +1500,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "easyeda2kicad:R0603"
@@ -1537,7 +1539,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0603WAF1202T5E_0_1"
+		(symbol "0603WAF1202T5E (12kohm , 0603)_0_1"
 			(rectangle
 				(start -2.54 1.02)
 				(end 2.54 -1.02)
@@ -1552,7 +1554,7 @@
 			(pin input line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "1"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1570,7 +1572,7 @@
 			(pin input line
 				(at 5.08 0 180)
 				(length 2.54)
-				(name "2"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1582,6 +1584,24 @@
 						(font
 							(size 1.27 1.27)
 						)
+					)
+				)
+			)
+		)
+		(symbol "0603WAF1202T5E (12kohm , 0603)_1_1"
+			(text "0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "12kΩ"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)
