@@ -42,7 +42,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10kΩ ±1% 62.5mW 0402 Thick Film Resistor"
 			(at 0 0 0)
 			(effects
 				(font
@@ -169,7 +169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100kΩ ±1% 62.5mW 0402 Thick Film Resistor"
 			(at 0 0 0)
 			(effects
 				(font
@@ -296,7 +296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "330Ω ±1% 62.5mW 0402 Thick Film Resistor"
 			(at 0 0 0)
 			(effects
 				(font
@@ -421,7 +421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50VC Clamp ESD DIODE 0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -759,7 +759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0Ω ±1% 100mW 0603 Thick Film Resistor"
 			(at 0 0 0)
 			(effects
 				(font
@@ -886,7 +886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100Ω ±1% 100mW 0603 Thick Film Resistor"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1140,7 +1140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10kΩ ±1% 100mW 0603 Thick Film Resistor"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1267,7 +1267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100kΩ ±1% 100mW 0603 Thick Film Resistor"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1394,7 +1394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "120Ω ±1% 100mW 0603 Thick Film Resistor"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1521,7 +1521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "12kΩ ±1% 100mW 0603 Thick Film Resistor"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1648,7 +1648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1.43kΩ ±1% 100mW 0603 Thick Film Resistor"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1902,7 +1902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "22Ω ±1% 100mW 0603 Thick Film Resistor"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2029,7 +2029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "24kΩ ±1% 100mW 0603 Thick Film Resistor"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2156,7 +2156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "330Ω ±1% 100mW 0603 Thick Film Resistor"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2283,7 +2283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "470Ω ±1% 100mW 0603 Thick Film Resistor"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2410,7 +2410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5.1kΩ ±1% 100mW 0603 Thick Film Resisto"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2537,7 +2537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75kΩ ±1% 100mW 0603 Thick Film Resistor"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2664,7 +2664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "806Ω ±1% 100mW 0603 Thick Film Resistor"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3015,7 +3015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TDFN-8-EP(2x2) Motor Drivers, Controllers RoHS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3261,7 +3261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "62.5mW 1.43kΩ 50V Thick Film Resistor ±100ppm/℃ ±1% 0402 Chip Resistor - Surface Mount RoHS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3515,7 +3515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100nF ±10% 50V Ceramic Capacitor X7R 0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3705,7 +3705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Usb to Serial ransceiver 2Mbps USB 2.0 SOP-16 Interface Controllers RoHS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4077,7 +4077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1uF ±10% 25V Ceramic Capacitor X5R 0402"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4269,7 +4269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100nF ±10% 16V Ceramic Capacitor X7R 0402"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4461,7 +4461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10uF ±10% 10V Ceramic Capacitor X5R 0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4653,7 +4653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.2uF ±10% 16V Ceramic Capacitor X5R 0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4845,7 +4845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "22uF ±20% 10V Ceramic Capacitor X5R 0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5037,7 +5037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4.7uF ±10% 16V Ceramic Capacitor X5R 0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5229,7 +5229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1nF ±10% 50V Ceramic Capacitor X7R 0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5444,7 +5444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10nF ±10% 50V Ceramic Capacitor X7R 0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5659,7 +5659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1uF ±10% 25V Ceramic Capacitor X7R 0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6066,7 +6066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "22pF ±5% 50V Ceramic Capacitor C0G 0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6281,7 +6281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "22uF ±20% 25V Ceramic Capacitor X5R 0805"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6473,7 +6473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "47uF ±20% 6.3V Ceramic Capacitor X5R 0805"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6856,7 +6856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75kΩ ±1% 100mW 0603 Thick Film Resistor"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6981,7 +6981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "P-Channel 20V 3A 1.5W Surface Mount SOT-23"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7227,7 +7227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "11.6VC Clamp 5A Ipp ESD DIODE SOD-923"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7359,7 +7359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.4GHz ESP8266 Chip On-board PCB Antenna -90dBm SMD,24x16mm RF Transceiver Modules and Modems"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7826,7 +7826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2V~3.6V 256Kbit 40MHz SPI SOIC-8 Memory (ICs) RoHS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8054,7 +8054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4.7kΩ ±1% 100mW 0603 Thick Film Resistor"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8179,7 +8179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4A 1uH 35mΩ 5.6A ±20% 1008 Fixed Inductors RoHS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8479,7 +8479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pin Header 2 1.27mm 1mm 4mm 14P -40℃~+105℃ 1A 250V 2x7P 1.27mm SMD,P=1.27mm Headers, Male Pins"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8813,7 +8813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Connector Header 10 position 1.25mm Pitch 1A Surface Mount,Vertical -25℃~+85℃"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9111,7 +9111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Connector Header 4 position 1.25mm Pitch 1A Surface Mount,Vertical -25℃~+85℃"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9303,7 +9303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1mΩ 3W Current Sense Resistor ±1% 2512 Chip Resistor - Surface Mount RoHS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10200,7 +10200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0V~36V 1.25mV 17nA TSSOP-16 Current Regulation/Management RoHS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10570,7 +10570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Slide Switch SPDT 300mA @ 6V Surface Mount Rectangular Columnar"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10779,7 +10779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Slide Switch SPDT 300mA @ 6V Surface Mount, Right Angle Rectangular Columnar"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10988,7 +10988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Buck DC DC Converter 1 Output 3.3V 500mA 4.75V~36V Input"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11125,7 +11125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Red 645nm LED Indication - Discrete 2.4V 0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11327,7 +11327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Transceiver 3V~5.5V TSSOP-16 Drivers, Receivers"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11708,7 +11708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode 10V 2A Surface Mount DO-214AC"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13052,7 +13052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Slide Switch SPDT 50mA @ 12V Surface Mount, Right Angle 8mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13400,7 +13400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NTC Thermistor 10kΩ Surface Mount 0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13481,7 +13481,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "OPT3004DNPR"
+	(symbol "OPT3004DNPR (i2c light detect)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -13493,7 +13493,7 @@
 				)
 			)
 		)
-		(property "Value" "OPT3004DNPR"
+		(property "Value" "OPT3004DNPR (i2c light detect)"
 			(at 0 -8.89 0)
 			(effects
 				(font
@@ -13519,7 +13519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "I2C 1.6V~3.6V WSON-6-EP(2x2) Ambient Light, IR, UV Sensors RoHS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13537,7 +13537,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "OPT3004DNPR_0_1"
+		(symbol "OPT3004DNPR (i2c light detect)_0_1"
 			(rectangle
 				(start -7.62 6.35)
 				(end 7.62 -6.35)
@@ -13729,7 +13729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100mW 91Ω 100V Thin Film Resistor ±25ppm/℃ ±0.1% 0603 Chip Resistor - Surface Mount RoHS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13854,7 +13854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Pin Header 3 Position 2.54mm Pitch Single Row Through Hole -40℃~+105℃"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13992,7 +13992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "12kΩ 100mW 75V Thick Film Resistor ±100ppm/℃ ±1% 0603 Chip Resistor - Surface Mount RoHS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14117,7 +14117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-Channel 60V 117A 69.4W Surface Mount PowerPAKSO-8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14343,7 +14343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD LED Addressable, Specialty RoHS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14487,7 +14487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Connector Header 4 position 1mm Pitch 1A Surface Mount, Right Angle -25℃~+85℃"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14666,7 +14666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4.5V~5.5V 1 1 6.5ns@5V,15pF 10uA SOT-23-5 Buffers, Drivers, Receivers"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14838,7 +14838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Schmitt trigger 1.65V~5.5V 1 1 10uA 4.6ns@3.3V,50pF SC-70-5 Buffers, Drivers, Receivers, Transceivers RoHS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15010,7 +15010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ARM Cortex-M4F 32 Bit 170MHz 38 LQFP-48(7x7) Microcontrollers RoHS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15956,7 +15956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ARM Cortex-M4 32 Bit 80MHz 26 UFQFPN-32(5x5) Microcontrollers RoHS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16634,7 +16634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100uF ±20% 25V Tantalum Capacitors 40mΩ@100kHz CASE-D-7343"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16839,7 +16839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Micro SD card (TF card) Connector and Ejector Push-Push Surface Mount"
 			(at 0 0 0)
 			(effects
 				(font
@@ -17155,7 +17155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-40℃~+125℃ I2C 1.4V~5.5V SOIC-8 Analog and Digital Output RoHS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -17392,7 +17392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Buck 800kHz Adjustable 800mA SOT-23-6 Voltage Regulators - DC DC Switching Regulators RoHS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -17815,7 +17815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Buck-Boost Switching Regulator IC Adjustable 1.2V~5.3V 2A SOT-583"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18041,7 +18041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB-C (USB TYPE-C) Receptacle Connector 16 Position Surface Mount, Right Angle"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18375,7 +18375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB-C (USB TYPE-C) Receptacle Connector 6 Position Surface Mount, Right Angle"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19323,7 +19323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD,2.2x2mm LED Addressable, Specialty RoHS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19439,6 +19439,322 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "X1251WVS-11HF-LPSW"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "CN"
+			(at 0 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "X1251WVS-11HF-LPSW"
+			(at 0 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:CONN-SMD_X1251WVS-11HF-LPSW"
+			(at 0 -25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header 11 position 1.25mm Pitch 1A Surface Mount,Vertical"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C706968"
+			(at 0 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "X1251WVS-11HF-LPSW_0_1"
+			(rectangle
+				(start -2.54 15.24)
+				(end 5.08 -15.24)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center -1.27 13.97)
+				(radius 0.38)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 12.7 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 10.16 0)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 7.62 0)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 5.08 0)
+				(length 2.54)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 2.54 0)
+				(length 2.54)
+				(name "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -2.54 0)
+				(length 2.54)
+				(name "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -5.08 0)
+				(length 2.54)
+				(name "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -7.62 0)
+				(length 2.54)
+				(name "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -10.16 0)
+				(length 2.54)
+				(name "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -12.7 0)
+				(length 2.54)
+				(name "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 3.81 17.78 270)
+				(length 2.54)
+				(name "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 3.81 -17.78 90)
+				(length 2.54)
+				(name "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "X322525MOB4SI"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19477,7 +19793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Crystal 25MHz ±10ppm 12pF SMD3225-4P"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19728,7 +20044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 250mA SOT-23"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19864,7 +20180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Banana and Tip Connector Adapters RoHS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19980,129 +20296,4 @@
 		)
 		(embedded_fonts no)
 	)
-
-  (symbol "X1251WVS-11HF-LPSW"
-    (in_bom yes)
-    (on_board yes)
-    (property
-      "Reference"
-      "CN"
-      (id 0)
-      (at 0 22.86 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Value"
-      "X1251WVS-11HF-LPSW"
-      (id 1)
-      (at 0 -22.86 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Footprint"
-      "easyeda2kicad:CONN-SMD_X1251WVS-11HF-LPSW"
-      (id 2)
-      (at 0 -25.40 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "LCSC Part"
-      "C706968"
-      (id 5)
-      (at 0 -27.94 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (symbol "X1251WVS-11HF-LPSW_0_1"
-      (rectangle
-        (start -2.54 15.24)
-        (end 5.08 -15.24)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-      (circle
-        (center -1.27 13.97)
-        (radius 0.38)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin unspecified line
-        (at -5.08 12.70 0)
-        (length 2.54)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -5.08 10.16 0)
-        (length 2.54)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -5.08 7.62 0)
-        (length 2.54)
-        (name "3" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -5.08 5.08 0)
-        (length 2.54)
-        (name "4" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -5.08 2.54 0)
-        (length 2.54)
-        (name "5" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -5.08 -0.00 0)
-        (length 2.54)
-        (name "6" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -5.08 -2.54 0)
-        (length 2.54)
-        (name "7" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -5.08 -5.08 0)
-        (length 2.54)
-        (name "8" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -5.08 -7.62 0)
-        (length 2.54)
-        (name "9" (effects (font (size 1.27 1.27))))
-        (number "9" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -5.08 -10.16 0)
-        (length 2.54)
-        (name "10" (effects (font (size 1.27 1.27))))
-        (number "10" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -5.08 -12.70 0)
-        (length 2.54)
-        (name "11" (effects (font (size 1.27 1.27))))
-        (number "11" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at 3.81 -17.78 90)
-        (length 2.54)
-        (name "12" (effects (font (size 1.27 1.27))))
-        (number "12" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at 3.81 17.78 270)
-        (length 2.54)
-        (name "13" (effects (font (size 1.27 1.27))))
-        (number "13" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
 )
