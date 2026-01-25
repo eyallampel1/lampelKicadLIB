@@ -8928,12 +8928,12 @@
 			)
 		)
 		(property "similar to" "BM04B-GHS-TBT(LF)(SN)"
-			(at 23.622 -4.826 0)
+			(at 12.954 -4.826 0)
 			(show_name)
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.508 0.508)
 				)
 			)
 		)
