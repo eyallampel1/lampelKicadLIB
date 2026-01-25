@@ -2551,8 +2551,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "CN"
-			(at 0 16.51 0)
+		(property "Reference" "J"
+			(at 8.128 5.334 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2560,7 +2561,8 @@
 			)
 		)
 		(property "Value" "A1257WV-S-6P-LCP"
-			(at 0 -16.51 0)
+			(at 17.272 3.048 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2586,7 +2588,7 @@
 			)
 		)
 		(property "Description" "Connector Header 6 position 1.25mm Pitch"
-			(at 0 0 0)
+			(at 0 -26.416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2768,6 +2770,26 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+		(symbol "A1257WV-S-6P-LCP_1_1"
+			(text "Top Entry"
+				(at 7.112 0.508 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(justify left)
+				)
+			)
+			(text "similiar to:\nBM06B-GHS-TBT(LF)(SN)"
+				(at 7.366 -2.032 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
 				)
 			)
 		)
@@ -8575,8 +8597,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
-			(at 0 21.59 0)
+		(property "Reference" "J"
+			(at 7.112 9.398 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8584,7 +8607,8 @@
 			)
 		)
 		(property "Value" "HCZZ0494-10"
-			(at 0 -21.59 0)
+			(at 12.954 7.112 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8610,7 +8634,7 @@
 			)
 		)
 		(property "Description" "Connector Header 10 position 1.25mm Pitch 1A Surface Mount,Vertical -25℃~+85℃"
-			(at 0 0 0)
+			(at -0.762 -29.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8867,6 +8891,26 @@
 				)
 			)
 		)
+		(symbol "HCZZ0494-10_1_1"
+			(text "Top Entry"
+				(at 6.096 4.826 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(justify left)
+				)
+			)
+			(text "similiar to:\nBM10B-GHS-TBT(LF)(SN)"
+				(at 6.096 2.286 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+		)
 		(embedded_fonts no)
 	)
 	(symbol "HCZZ0494-4"
@@ -8910,7 +8954,7 @@
 			)
 		)
 		(property "Description" "Connector Header 4 position 1.25mm Pitch 1A Surface Mount,Vertical -25℃~+85℃"
-			(at 0 0 0)
+			(at -1.27 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8925,16 +8969,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "similar to" "BM04B-GHS-TBT(LF)(SN)"
-			(at 12.954 -4.826 0)
-			(show_name)
-			(do_not_autoplace)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
 			)
 		)
 		(symbol "HCZZ0494-4_0_1"
@@ -9071,10 +9105,19 @@
 		)
 		(symbol "HCZZ0494-4_1_1"
 			(text "Top Entry"
-				(at 5.842 -2.794 0)
+				(at 6.35 -0.254 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 0.762 0.762)
+					)
+					(justify left)
+				)
+			)
+			(text "similiar to:\nBM04B-GHS-TBT(LF)(SN)"
+				(at 6.35 -2.794 0)
+				(effects
+					(font
+						(size 0.635 0.635)
 					)
 					(justify left)
 				)
