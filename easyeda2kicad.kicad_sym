@@ -383,6 +383,189 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "0603CG7R0C500NT (7pf , 0603 , 50v)"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0 3.048 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603CG7R0C500NT (7pf , 0603 , 50v)"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0603"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_7-0pF-7R0-0-25pF-50V_C1682.html"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "7pF 50V Ceramic Capacitor C0G 0603"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1682"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "0603CG7R0C500NT (7pf , 0603 , 50v)_0_1"
+			(polyline
+				(pts
+					(xy -0.51 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.51 -2.03) (xy -0.51 2.03)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.51 2.03) (xy 0.51 -2.03)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 0.51 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "0603CG7R0C500NT (7pf , 0603 , 50v)_1_1"
+			(text "C0G"
+				(at -2.286 0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "0603"
+				(at 0 0 900)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "50v"
+				(at 2.032 0.762 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "7pF"
+				(at 2.794 -1.016 0)
+				(effects
+					(font
+						(size 0.889 0.889)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "0603ESDA-05N (usb , esd , 0603)"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -556,7 +739,7 @@
 			)
 		)
 		(property "Description" "0Ω ±1% 100mW 0603 Thick Film Resistor"
-			(at 0 0 0)
+			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3207,7 +3390,7 @@
 			)
 		)
 		(property "Description" "1mΩ 5W Shunt ±100ppm/℃ ±1% 2512 Chip Resistor - Surface Mount RoHS"
-			(at 0 0 0)
+			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3517,7 +3700,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/product-detail/C513577.html"
-			(at 0 0 0)
+			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3526,7 +3709,7 @@
 			)
 		)
 		(property "Description" "470nF ±10% 50V Ceramic Capacitor X7R 0603"
-			(at 0 0 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4088,7 +4271,7 @@
 			)
 		)
 		(property "Description" "1uF ±10% 25V Ceramic Capacitor X5R 0402"
-			(at 0 0 0)
+			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5821,24 +6004,26 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "CL10B474KA8NNNC"
+	(symbol "CL10B474KA8NNNC (470nf , 0603 , X7R)"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
-			(at 0 5.08 0)
+			(at 0 3.048 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "CL10B474KA8NNNC"
+		(property "Value" "CL10B474KA8NNNC (470nf , 0603 , X7R)"
 			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "easyeda2kicad:C0603"
@@ -5859,7 +6044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "470nF ±10% 25V Ceramic Capacitor X7R 0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5877,10 +6062,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "CL10B474KA8NNNC_0_1"
+		(symbol "CL10B474KA8NNNC (470nf , 0603 , X7R)_0_1"
 			(polyline
 				(pts
-					(xy -1.27 0) (xy -0.51 0)
+					(xy -0.51 0) (xy -2.54 0)
 				)
 				(stroke
 					(width 0)
@@ -5892,7 +6077,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.51 2.03) (xy -0.51 -2.03)
+					(xy -0.51 -2.03) (xy -0.51 2.03)
 				)
 				(stroke
 					(width 0)
@@ -5916,7 +6101,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.51 0) (xy 1.27 0)
+					(xy 2.54 0) (xy 0.51 0)
 				)
 				(stroke
 					(width 0)
@@ -5926,10 +6111,10 @@
 					(type none)
 				)
 			)
-			(pin input line
-				(at -3.81 0 0)
+			(pin unspecified line
+				(at -5.08 0 0)
 				(length 2.54)
-				(name "1"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5944,10 +6129,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 3.81 0 180)
+			(pin unspecified line
+				(at 5.08 0 180)
 				(length 2.54)
-				(name "2"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5959,6 +6144,52 @@
 						(font
 							(size 1.27 1.27)
 						)
+					)
+				)
+			)
+		)
+		(symbol "CL10B474KA8NNNC (470nf , 0603 , X7R)_1_1"
+			(text "X7R"
+				(at -2.286 0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "±10%"
+				(at -2.286 -0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "0603"
+				(at 0 0 900)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "25v"
+				(at 2.032 0.762 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "470nF"
+				(at 2.794 -1.016 0)
+				(effects
+					(font
+						(size 0.889 0.889)
 					)
 				)
 			)
@@ -9578,6 +9809,133 @@
 				)
 			)
 			(text "1mΩ"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "HOLR2725D-4W-0.5MR-1% ( 0.5mohm , 2725)"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0 2.54 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HOLR2725D-4W-0.5MR-1% ( 0.5mohm , 2725)"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R2725"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Low-Resistors-Current-Sense-Resistors-Surface-Mount_Milliohm-HoLR2725D-4W-0-5mR-1_C500744.html"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4W 0.5mΩ Current Sense Resistor ±1% 25ppm/℃~+50ppm/℃ 2725 Chip Resistor - Surface Mount RoHS"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C500744"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "HOLR2725D-4W-0.5MR-1% ( 0.5mohm , 2725)_0_1"
+			(rectangle
+				(start -2.54 1.27)
+				(end 2.54 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "HOLR2725D-4W-0.5MR-1% ( 0.5mohm , 2725)_1_1"
+			(text "2725"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "0.5mΩ"
 				(at 0 -2.286 0)
 				(effects
 					(font
@@ -14524,7 +14882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Crystal 32.768kHz ±20ppm 7pF SMD3215-2P"
 			(at 9.652 0.762 0)
 			(do_not_autoplace)
 			(effects
@@ -15621,7 +15979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ARM Cortex-M3 32 Bit 72MHz 37 LQFP-48(7x7) Microcontrollers RoHS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -17513,7 +17871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ARM Cortex-M7 32 Bit 480MHz 140 LQFP-176(24x24) Microcontrollers RoHS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21648,7 +22006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Crystal 8MHz ±10ppm 10pF 250Ω SMD3225-4P"
 			(at 0.254 -5.08 0)
 			(do_not_autoplace)
 			(effects
@@ -25403,145 +25761,4 @@
 		)
 		(embedded_fonts no)
 	)
-
-  (symbol "0603CG7R0C500NT"
-    (in_bom yes)
-    (on_board yes)
-    (property
-      "Reference"
-      "C"
-      (id 0)
-      (at 0 5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Value"
-      "0603CG7R0C500NT"
-      (id 1)
-      (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Footprint"
-      "easyeda2kicad:C0603"
-      (id 2)
-      (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "Datasheet"
-      "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_7-0pF-7R0-0-25pF-50V_C1682.html"
-      (id 3)
-      (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "LCSC Part"
-      "C1682"
-      (id 5)
-      (at 0 -12.70 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (symbol "0603CG7R0C500NT_0_1"
-      (polyline
-        (pts
-          (xy -0.51 2.03) (xy -0.51 -2.03)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.51 2.03) (xy 0.51 -2.03)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 -0.00) (xy -0.51 -0.00)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.51 -0.00) (xy 1.27 -0.00)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin input line
-        (at -3.81 -0.00 0)
-        (length 2.54)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line
-        (at 3.81 -0.00 180)
-        (length 2.54)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "HOLR2725D-4W-0.5MR-1%"
-    (in_bom yes)
-    (on_board yes)
-    (property
-      "Reference"
-      "R"
-      (id 0)
-      (at 0 5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Value"
-      "HOLR2725D-4W-0.5MR-1%"
-      (id 1)
-      (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Footprint"
-      "easyeda2kicad:R2725"
-      (id 2)
-      (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "Datasheet"
-      "https://lcsc.com/product-detail/Low-Resistors-Current-Sense-Resistors-Surface-Mount_Milliohm-HoLR2725D-4W-0-5mR-1_C500744.html"
-      (id 3)
-      (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "LCSC Part"
-      "C500744"
-      (id 5)
-      (at 0 -12.70 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (symbol "HOLR2725D-4W-0.5MR-1%_0_1"
-      (rectangle
-        (start -2.54 1.27)
-        (end 2.54 -1.27)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-      (pin unspecified line
-        (at -5.08 -0.00 0)
-        (length 2.54)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at 5.08 -0.00 180)
-        (length 2.54)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
 )
