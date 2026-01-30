@@ -26953,16 +26953,7 @@
       (at 0 -19.05 0)
       (effects (font (size 1.27 1.27) ) hide)
     )
-    (property "Description" "",product_detail_check_quantity:"MOQ is {minBuyNumber} and Multiple is {split}.",product_detail_feedback_datasheet:aR,product_detail_popular_contactus:M,product_detail_datasheet:aR,product_detail_feedback_other:"Other",product_detail_feedback_navigation:"Search \u002F Navigation",product_detail_favorites_removed:"Removed",product_detail_attribute:l,pop_button_save:"Save",product_detail_get_price:"Get Price",product_detail_notice_pcs:"PCS",product_detail_documents_type:l,product_detail_notice_quantity:"Required Quantity",roduct_detail_popular_homepage:"Homepage",top_language:"Language",top_login_quote_history:"Quotes",top_cart_nodata:"No data available",top_api:aI,top_search_clear_all:"Clear All",top_check_all_carts:"Check All"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "CH340C_C7464026_0_1"
+    (symbol "CH340C_C7464026_0_1"
       (rectangle
         (start -8.89 11.43)
         (end 8.89 -11.43)
