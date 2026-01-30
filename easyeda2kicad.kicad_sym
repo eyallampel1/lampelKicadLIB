@@ -26639,16 +26639,7 @@
       (at 0 -12.70 0)
       (effects (font (size 1.27 1.27) ) hide)
     )
-    (property "Description" "Tactile Switch 6mm 6mm x 6mm"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "6.0*6.0*6.0_0_1"
+    (symbol "6.0*6.0*6.0_0_1"
       (circle
         (center 0.00 -0.76)
         (radius 0.25)
