@@ -26632,6 +26632,24 @@
       (at 0 -10.16 0)
       (effects (font (size 1.27 1.27) ) hide)
     )
+    (property "Datasheet" "https://www.lcsc.com/product-detail/C5127964.html"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switch 6mm 6mm x 6mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
     (property
       "LCSC Part"
       "C5127964"
