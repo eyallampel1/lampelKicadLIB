@@ -29509,7 +29509,200 @@
 		)
 	)
 	(embedded_fonts no)
+	)	(symbol "GRM21BR61A476ME15L (47uF , 0805 ,10V ,X5R)"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+		(at 0 3.048 0)
+		(do_not_autoplace)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
 	)
+		(property "Value" "GRM21BR61A476ME15L (47uF , 0805 ,10V ,X5R)"
+		(at 0 -5.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+		(property "Footprint" "easyeda2kicad:C0805"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C124129.html"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "47uF ±20% 10V Ceramic Capacitor X5R 0805"
+		(at 0 -15.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+		(property "LCSC Part" "C124129"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "GRM21BR61A476ME15L (47uF , 0805 ,10V ,X5R)_0_1"
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -0.51 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.51 2.03) (xy -0.51 -2.03)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.51 2.03) (xy 0.51 -2.03)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.51 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+
+	(symbol "GRM21BR61A476ME15L (47uF , 0805 ,10V ,X5R)_1_1"
+		(text "X5R"
+			(at -2.286 0.762 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(color 154 28 255 1)
+				)
+			)
+		)
+		(text "±20%"
+			(at -2.286 -0.762 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(color 154 28 255 1)
+				)
+			)
+		)
+		(text "0805"
+			(at 0 0 900)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(color 154 28 255 1)
+				)
+			)
+		)
+		(text "10V"
+			(at 2.032 0.762 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(color 255 0 2 1)
+				)
+			)
+		)
+		(text "47uF"
+			(at 2.794 -1.016 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+	)
+	(embedded_fonts no)
+	)
+
 
 
 
