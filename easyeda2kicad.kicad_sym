@@ -2984,6 +2984,133 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "0603WAF499JT5E (49.9ohm , 0603)"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0 2.032 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603WAF499JT5E (49.9ohm , 0603)"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C23185.html"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "49.9Ω ±1% 100mW 0603 Thick Film Resistor"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23185"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "0603WAF499JT5E (49.9ohm , 0603)_0_1"
+			(rectangle
+				(start -2.54 1.02)
+				(end 2.54 -1.02)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "0603WAF499JT5E (49.9ohm , 0603)_1_1"
+			(text "0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "49.9ohm"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "0603WAF5101T5E (5.1kohm , 0603)"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3613,6 +3740,232 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "24LC64-I_SN"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "24LC64-I/SN"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/EEPROM_Microchip-Tech-24LC64-I-SN_C511260.html"
+			(at 0 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C511260"
+			(at 0 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "24LC64-I_SN_0_1"
+			(rectangle
+				(start -6.35 6.35)
+				(end 6.35 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center -5.08 5.08)
+				(radius 0.38)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 3.81 0)
+				(length 2.54)
+				(name "A0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 1.27 0)
+				(length 2.54)
+				(name "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -1.27 0)
+				(length 2.54)
+				(name "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -3.81 0)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 3.81 180)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 1.27 180)
+				(length 2.54)
+				(name "WP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 -1.27 180)
+				(length 2.54)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 -3.81 180)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
 			)
@@ -6481,7 +6834,198 @@
 		)
 		(embedded_fonts no)
 	)
-	
+	(symbol "CL05B104KO5NNNC (100nF , 0402 ,16V ,X7R)"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0 3.048 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CL05B104KO5NNNC (100nF , 0402 ,16V ,X7R)"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0402"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1525.html"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF ±10% 16V Ceramic Capacitor X7R 0402"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CL05B104KO5NNNC (100nF , 0402 ,16V ,X7R)_0_1"
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -0.51 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.51 2.03) (xy -0.51 -2.03)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.51 2.03) (xy 0.51 -2.03)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.51 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "CL05B104KO5NNNC (100nF , 0402 ,16V ,X7R)_1_1"
+			(text "X7R"
+				(at -2.286 0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "±10%"
+				(at -2.286 -0.762 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "0402"
+				(at 0 0 900)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 154 28 255 1)
+					)
+				)
+			)
+			(text "16V"
+				(at 2.032 0.762 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+						(color 255 0 2 1)
+					)
+				)
+			)
+			(text "100nF"
+				(at 2.794 -1.016 0)
+				(effects
+					(font
+						(size 0.889 0.889)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "CL10A106KP8NNNC (10uf , 0603 ,10v,X5R)"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15587,6 +16131,198 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "LM74700QDBVRQ1"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -8.382 6.35 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM74700QDBVRQ1"
+			(at 0 -12.954 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+			(at 1.27 -20.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2941042.html"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20mV 11mA 65V 2.37A SOT-23-6 OR Controllers, Ideal Diodes RoHS"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2941042"
+			(at 0.508 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LM74700QDBVRQ1_0_1"
+			(rectangle
+				(start -11.43 5.08)
+				(end 11.43 -11.43)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center -10.16 3.81)
+				(radius 0.38)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at -13.97 2.54 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -13.97 -1.27 0)
+				(length 2.54)
+				(name "ANODE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -13.97 -5.08 0)
+				(length 2.54)
+				(name "VCAP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -13.97 -8.89 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 7.62 270)
+				(length 2.54)
+				(name "GATE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 8.89 7.62 270)
+				(length 2.54)
+				(name "CATHODE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
 			)
@@ -30608,528 +31344,5 @@
 			)
 		)
 		(embedded_fonts no)
-	)	(symbol "0603WAF499JT5E (49.9ohm , 0603)"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "R"
-		(at 0 2.032 0)
-		(do_not_autoplace)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
 	)
-		(property "Value" "0603WAF499JT5E (49.9ohm , 0603)"
-		(at 0 -5.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(hide yes)
-		)
-	)
-		(property "Footprint" "easyeda2kicad:R0603"
-			(at 0 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C23185.html"
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "49.9Ω ±1% 100mW 0603 Thick Film Resistor"
-		(at 0 -15.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(hide yes)
-		)
-	)
-		(property "LCSC Part" "C23185"
-			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "0603WAF499JT5E (49.9ohm , 0603)_0_1"
-			(rectangle
-				(start -2.54 1.02)
-				(end 2.54 -1.02)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin input line
-				(at -5.08 0 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 5.08 0 180)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-
-	(symbol "0603WAF499JT5E (49.9ohm , 0603)_1_1"
-		(text "0603"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(text "49.9ohm"
-			(at 0 -2.286 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(embedded_fonts no)
-	)	(symbol "CL05B104KO5NNNC (100nF , 0402 ,16V ,X7R)"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-		(at 0 3.048 0)
-		(do_not_autoplace)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
-		(property "Value" "CL05B104KO5NNNC (100nF , 0402 ,16V ,X7R)"
-		(at 0 -5.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(hide yes)
-		)
-	)
-		(property "Footprint" "easyeda2kicad:C0402"
-			(at 0 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C1525.html"
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100nF ±10% 16V Ceramic Capacitor X7R 0402"
-		(at 0 -15.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(hide yes)
-		)
-	)
-		(property "LCSC Part" "C1525"
-			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "CL05B104KO5NNNC (100nF , 0402 ,16V ,X7R)_0_1"
-			(polyline
-				(pts
-					(xy -2.54 0) (xy -0.51 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.51 2.03) (xy -0.51 -2.03)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.51 2.03) (xy 0.51 -2.03)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.51 0) (xy 2.54 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -5.08 0 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 5.08 0 180)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-
-	(symbol "CL05B104KO5NNNC (100nF , 0402 ,16V ,X7R)_1_1"
-		(text "X7R"
-			(at -2.286 0.762 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(color 154 28 255 1)
-				)
-			)
-		)
-		(text "±10%"
-			(at -2.286 -0.762 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(color 154 28 255 1)
-				)
-			)
-		)
-		(text "0402"
-			(at 0 0 900)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(color 154 28 255 1)
-				)
-			)
-		)
-		(text "16V"
-			(at 2.032 0.762 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(color 255 0 2 1)
-				)
-			)
-		)
-		(text "100nF"
-			(at 2.794 -1.016 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-	)
-	(embedded_fonts no)
-	)
-
-
-
-  (symbol "24LC64-I_SN"
-    (in_bom yes)
-    (on_board yes)
-    (property
-      "Reference"
-      "U"
-      (id 0)
-      (at 0 8.89 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Value"
-      "24LC64-I/SN"
-      (id 1)
-      (at 0 -8.89 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Footprint"
-      "easyeda2kicad:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL"
-      (id 2)
-      (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "Datasheet"
-      "https://lcsc.com/product-detail/EEPROM_Microchip-Tech-24LC64-I-SN_C511260.html"
-      (id 3)
-      (at 0 -13.97 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "LCSC Part"
-      "C511260"
-      (id 5)
-      (at 0 -16.51 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (symbol "24LC64-I_SN_0_1"
-      (rectangle
-        (start -6.35 6.35)
-        (end 6.35 -6.35)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-      (circle
-        (center -5.08 5.08)
-        (radius 0.38)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin unspecified line
-        (at -8.89 3.81 0)
-        (length 2.54)
-        (name "A0" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -8.89 1.27 0)
-        (length 2.54)
-        (name "A1" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -8.89 -1.27 0)
-        (length 2.54)
-        (name "A2" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -8.89 -3.81 0)
-        (length 2.54)
-        (name "VSS" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at 8.89 -3.81 180)
-        (length 2.54)
-        (name "SDA" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at 8.89 -1.27 180)
-        (length 2.54)
-        (name "SCL" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at 8.89 1.27 180)
-        (length 2.54)
-        (name "WP" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at 8.89 3.81 180)
-        (length 2.54)
-        (name "VCC" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "LM74700QDBVRQ1"
-    (in_bom yes)
-    (on_board yes)
-    (property
-      "Reference"
-      "U"
-      (id 0)
-      (at 0 7.62 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Value"
-      "LM74700QDBVRQ1"
-      (id 1)
-      (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Footprint"
-      "easyeda2kicad:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
-      (id 2)
-      (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property "Datasheet" "https://www.lcsc.com/product-detail/C2941042.html"
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "20mV 11mA 65V 2.37A SOT-23-6 OR Controllers, Ideal Diodes RoHS"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-    (property
-      "LCSC Part"
-      "C2941042"
-      (id 5)
-      (at 0 -12.70 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (symbol "LM74700QDBVRQ1_0_1"
-      (rectangle
-        (start -11.43 5.08)
-        (end 11.43 -5.08)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-      (circle
-        (center -10.16 3.81)
-        (radius 0.38)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin unspecified line
-        (at -13.97 2.54 0)
-        (length 2.54)
-        (name "VCAP" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -13.97 -0.00 0)
-        (length 2.54)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -13.97 -2.54 0)
-        (length 2.54)
-        (name "EN" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at 13.97 -2.54 180)
-        (length 2.54)
-        (name "CATHODE" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at 13.97 -0.00 180)
-        (length 2.54)
-        (name "GATE" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at 13.97 2.54 180)
-        (length 2.54)
-        (name "ANODE" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
 )
