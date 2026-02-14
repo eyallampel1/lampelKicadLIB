@@ -1,31 +1,198 @@
-(module easyeda2kicad:CONN-SMD_3P-P1.25_A1251WV-S-3P (layer F.Cu) (tedit 5DC5F6A4)
+(footprint "CONN-SMD_3P-P1.25_A1251WV-S-3P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.45 0)
+		(layer "F.SilkS")
+		(uuid "3b3ba3df-38c3-408a-a7f6-03ddada0dca0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CONN-SMD_3P-P1.25_A1251WV-S-3P"
+		(at 0 5.45 0)
+		(layer "F.Fab")
+		(uuid "42b8b5df-565f-40e3-a348-0fa24a197888")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7742885-98d2-4d30-8e90-61443bd99edb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3117ba6b-5aff-46f6-8b39-d6bf050a0fec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
-	(fp_text reference REF** (at 0 -5.45) (layer F.SilkS)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -2.7 -1.25)
+		(end -2.7 -0.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a8786d97-057f-4ebc-b2f9-d8facfc57b20")
 	)
-	(fp_text value CONN-SMD_3P-P1.25_A1251WV-S-3P (at 0 5.45) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -2.7 -0.5)
+		(end -4.25 -0.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "95417440-0eef-45f6-b853-357bfdf59805")
 	)
-	(fp_text user %R (at 0 0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -2.45 2.4)
+		(end 2.5 2.4)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a21f198d-a4f3-449a-b425-c77c2f908883")
 	)
-	(fp_line (start -2.45 2.40) (end 2.50 2.40) (layer F.SilkS) (width 0.25))
-	(fp_line (start 1.80 -1.25) (end 2.75 -1.25) (layer F.SilkS) (width 0.25))
-	(fp_line (start 2.75 -1.25) (end 2.75 -0.50) (layer F.SilkS) (width 0.25))
-	(fp_line (start 2.75 -0.50) (end 4.20 -0.50) (layer F.SilkS) (width 0.25))
-	(fp_line (start -1.88 -1.25) (end -2.70 -1.25) (layer F.SilkS) (width 0.25))
-	(fp_line (start -2.70 -1.25) (end -2.70 -0.50) (layer F.SilkS) (width 0.25))
-	(fp_line (start -2.70 -0.50) (end -4.25 -0.50) (layer F.SilkS) (width 0.25))
-	(pad 5 smd rect (at 3.75 1.45 0.00) (size 2.10 3.00) (layers F.Cu F.Paste F.Mask))
-	(pad 4 smd rect (at -3.75 1.45 0.00) (size 2.10 3.00) (layers F.Cu F.Paste F.Mask))
-	(pad 3 smd rect (at 1.25 -1.45 0.00) (size 0.80 1.60) (layers F.Cu F.Paste F.Mask))
-	(pad 2 smd rect (at -0.00 -1.45 0.00) (size 0.80 1.60) (layers F.Cu F.Paste F.Mask))
-	(pad 1 smd rect (at -1.25 -1.45 0.00) (size 0.80 1.60) (layers F.Cu F.Paste F.Mask))
-	(fp_circle (center -4.45 -1.80) (end -4.42 -1.80) (layer F.Fab) (width 0.06))
-	(fp_circle (center -1.40 -2.20) (end -1.20 -2.20) (layer Cmts.User) (width 0.40))
+	(fp_line
+		(start -1.88 -1.25)
+		(end -2.7 -1.25)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2ec0815c-02bb-4e97-9133-0d6cda7fec2d")
+	)
+	(fp_line
+		(start 1.8 -1.25)
+		(end 2.75 -1.25)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d53d4a83-92bb-49df-abc5-045fd4bace52")
+	)
+	(fp_line
+		(start 2.75 -1.25)
+		(end 2.75 -0.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b8b02e34-5e79-4cf2-bd4b-67019b2b6b97")
+	)
+	(fp_line
+		(start 2.75 -0.5)
+		(end 4.2 -0.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7c7591c1-3b99-484b-bfce-6cb81a1e9b5a")
+	)
+	(fp_circle
+		(center -1.4 -2.2)
+		(end -1.2 -2.2)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "8b1daee1-530f-42ae-92d2-0b2ff2c4d054")
+	)
+	(fp_circle
+		(center -4.45 -1.8)
+		(end -4.42 -1.8)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1f317d58-b464-49f3-a7ed-0385cde8bae5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2f7fc991-cd25-4257-aaf5-79d7b11f0568")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.25 -1.45)
+		(size 0.8 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2892dbb2-f609-40db-b1e6-50858369de77")
+	)
+	(pad "2" smd rect
+		(at 0 -1.45)
+		(size 0.8 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1afa0bab-c565-4009-b111-1717dbbe5745")
+	)
+	(pad "3" smd rect
+		(at 1.25 -1.45)
+		(size 0.8 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7d497b38-6b03-4097-adbe-f704567fde50")
+	)
+	(pad "4" smd rect
+		(at -3.75 1.45)
+		(size 2.1 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1eecd626-8efc-4d84-bb14-bd195ea4524c")
+	)
+	(pad "5" smd rect
+		(at 3.75 1.45)
+		(size 2.1 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2a405e6a-64d6-43d4-9c64-2305024eef7e")
+	)
+	(embedded_fonts no)
 	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/CONN-SMD_MX1.25-LS-3P.wrl"
-		(offset (xyz 0.000 -0.320 -0.000))
-		(scale (xyz 1 1 1))
-		(rotate (xyz 0 0 180))
+		(offset
+			(xyz -1.25 -1.3 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 180)
+		)
 	)
 )
