@@ -40319,4 +40319,96 @@
       )
     )
   )
+  (symbol "CD1H225KC9BER1F100"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (id 0)
+      (at 0 81.28 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "CD1H225KC9BER1F100"
+      (id 1)
+      (at 0 71.12 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "easyeda2kicad:CAP-TH_L6.0-W3.8-P5.08-D0.6"
+      (id 2)
+      (at 0 68.58 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property "Datasheet" "https://www.lcsc.com/product-detail/C2976626.html"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2200nF ±10% 50V Ceramic Capacitor X7R Through Hole,P=5.08mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+    (property
+      "LCSC Part"
+      "C2976626"
+      (id 5)
+      (at 0 66.04 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "CD1H225KC9BER1F100_0_1"
+      (polyline
+        (pts
+          (xy -102.11 74.17) (xy -102.11 78.23)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -99.06 76.20) (xy -101.09 76.20)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -101.09 78.23) (xy -101.09 74.17)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -102.11 76.20) (xy -104.14 76.20)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at -106.68 76.20 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -96.52 76.20 180)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
 )
